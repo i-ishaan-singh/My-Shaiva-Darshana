@@ -1,6 +1,7 @@
 img.landing-page-image {
     position: absolute;
     width: 100%;
+    transition: 0.3s;
 }
 
 .main-landing.full-container {
@@ -39,11 +40,12 @@ img.landing-page-image.back-hidden-image {
     background: #0000008f;
     padding: 2rem;
     font-size: 1.5rem;
-    width: 50%;
+    width: 55%;
     left: 5rem;
     box-shadow: 0 0 6px 1px #000000cf;
     z-index: 3;
     color: #fafafa;
+    transition: 0.3s;
 }
 
 .landing-sub-message {
@@ -62,3 +64,115 @@ img.landing-page-image.back-hidden-image {
 }   
 
 
+@media screen and (max-width: 2838px) {
+    .landing-message-container{
+        padding: 1.8rem;
+        width: 70%;
+    }
+}
+
+
+
+@media screen and (max-width: 2800px) {
+
+    img.landing-page-image.front-image {
+        bottom: -13rem;
+        width: 116%;
+        left: -14%;
+    }
+
+    img.landing-page-image.back-natraj-image {
+        bottom: -12rem;
+        width: 117%;
+        left: -14%;
+    }
+
+    img.landing-page-image.back-hidden-image {
+        bottom: -9rem;
+    }
+}
+
+
+@media screen and (max-width: 2499px) {
+
+    img.landing-page-image.front-image {
+        bottom: -10rem;
+    }
+
+    img.landing-page-image.back-natraj-image {
+        bottom: -8rem;
+        width: 110%;
+        left: -7%;
+    }
+
+    .landing-message-container{
+        width: 60%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1235px){
+
+    .landing-message-container{
+        width: 80%;
+        top: 6.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 970px){
+
+    .landing-message-container{
+        width: 90%;
+        left: 5%;
+    }
+
+    img.landing-page-image.front-image {
+        bottom: -7rem;
+    }
+
+    img.landing-page-image.back-natraj-image {
+        bottom: 0rem;
+    }
+
+    img.landing-page-image.back-hidden-image {
+        bottom: 0rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .landing-message-container{
+        width: 92%;
+        left: 4%;
+        top: 5.5rem;
+    }
+
+    img.landing-page-image.front-image {
+        bottom: -3rem;
+    }
+
+    img.landing-page-image.back-natraj-image {
+        bottom: 1.8rem;
+    }
+
+    img.landing-page-image.back-hidden-image {
+        bottom: 3rem;
+    }
+
+}
+
+
+@media screen and (max-width: 400px){
+
+    .landing-message-container{
+        font-size: 1.25rem;
+    }
+
+}

@@ -16,14 +16,14 @@ const LiteratureCards = function(){
                 </div>
                 <CardGroup>
                     <Card 
-                        redirectPath="/literature/books?name=shivsutra"
+                        redirectPath="/My-Shaiva-Darshana/literature/books?name=shivsutra"
                         imageSrc={shivsutra}
                         header="Shiv Sutra"
                         description="Written by VasuGupta, the Shiva Sutras consist of 77 sutras that succinctly encapsulate profound spiritual truths, which are meant to be experienced through direct realization."
                     />
                      <Card 
                         imageSrc={sth}
-                        redirectPath="/literature/books?name=shattrimshattattva"
+                        redirectPath="/My-Shaiva-Darshana/literature/books?name=shattrimshattattva"
                         header="Shattrimshat Tattva Sandoha"
                         description="A text describing the creation of the world through the 36 elements of creation."
                     />

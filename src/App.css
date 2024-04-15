@@ -23,3 +23,10 @@
   text-align: right;
   font-size: 0.8rem;
 }
+
+
+@media screen and (max-width: 940px){
+  .shiv-content-link {
+    font-size: 0.9rem;
+  }
+}

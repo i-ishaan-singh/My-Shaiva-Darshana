@@ -10,7 +10,7 @@ const AboutShaivaism = function(){
                 <div className="shiv-paragraph">
                     {`Kashmir Shaivism, is a spiritual discipline that asserts the view that everything manifests as an expression of pure consciousness . Rooted in ancient Tantric traditions, this practice places Lord Shiva at its core, embodying the divine consciousness in every aspect of our existence. 
                     
-                    The doctrines of Kashmir Shaivism stem from the ninety-two `}<NavigationLink to='/literature-list'>Tantras</NavigationLink>{`, also known as Agamas, which were disclosed by Lord Shiva through a dialogue with the Divine Mother. Among these Tantras, sixty-four are exclusively monistic, eighteen combine monism with dualism, and ten are purely dualistic. 
+                    The doctrines of Kashmir Shaivism stem from the ninety-two `}<NavigationLink to='/My-Shaiva-Darshana/literature-list'>Tantras</NavigationLink>{`, also known as Agamas, which were disclosed by Lord Shiva through a dialogue with the Divine Mother. Among these Tantras, sixty-four are exclusively monistic, eighteen combine monism with dualism, and ten are purely dualistic. 
                     The Kashmiri Shaivism is combination of Shaivism, Agama and Tantra.
                     
                     The teachings of Kashmir Advait Shaivism are rooted in the sixty-four monistic Tantras, referred to as the Bhairava Tantras, with their essence encapsulated in 'Trika Shaivism.'

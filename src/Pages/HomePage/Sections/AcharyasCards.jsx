@@ -17,12 +17,12 @@ const AcharyasCards = function(){
                 <CardGroup>
                     <Card 
                         imageSrc={vasuGupta}
-                        redirectPath="/personalities?name=vasugupta"
+                        redirectPath="/My-Shaiva-Darshana/personalities?name=vasugupta"
                         header="Vasugupta"
                         description="The author of the foundational text “Shiva Sutras”, which succinctly encapsulates the essence of Kashmir Shaivism. His work lays the groundwork for understanding the path to self-realization."
                     />
                      <Card 
-                        redirectPath="/personalities?name=abhinavgupta"
+                        redirectPath="/My-Shaiva-Darshana/personalities?name=abhinavgupta"
                         imageSrc={abhinavgupta}
                         header="Abhinavgupta"
                         description="A polymath, philosopher, and mystic, Abhinavagupta made significant contributions to Kashmir Shaivism. His works include commentaries on various texts, such as the “Tantraloka” and the “Tantrasara”."

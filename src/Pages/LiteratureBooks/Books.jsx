@@ -4,7 +4,6 @@ import React from 'react';
 import ShivSutra from './assets/shivasutra';
 import ShattrimshatTattva from './assets/Shattrimshattattva';
 import { useQueryParms } from '../../Utils/Query/useQueryParams';
-import { SectionSeparator } from '../../Components/SectionSeparator/SectionSeparator';
 
 
 const map ={
@@ -31,7 +30,6 @@ const BooksPage = function(){
     return (<div>
                 <SectionHeader name="Shaiva Literature" />
                 <Renderer/>
-                <SectionSeparator/>
                 <Footer />
             </div>)
 }

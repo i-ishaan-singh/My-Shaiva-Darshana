@@ -9,18 +9,19 @@ const MainRouter = function(){
     return (<Routes>
                 <Route 
                     index 
+                    path="/My-Shaiva-Darshana"
                     element={<HomePage />}
                 /> 
                 <Route 
-                    path="/literature/books" 
+                    path="/My-Shaiva-Darshana/literature/books" 
                     element={<BooksPage />}
                 /> 
                 <Route 
-                    path="/literature-list" 
+                    path="/My-Shaiva-Darshana/literature-list" 
                     element={<SFTantraList />}
                 /> 
                 <Route 
-                    path="/personalities" 
+                    path="/My-Shaiva-Darshana/personalities" 
                     element={<GuruPage />}
                 /> 
             </Routes>);

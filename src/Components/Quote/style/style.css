@@ -11,6 +11,7 @@
 
 .quote-wrapper {
     position: relative;
+    padding-left: 1rem;
 }
 
 .quote-wrapper:before {
@@ -21,6 +22,6 @@
     font-size: 11rem;
     top: -2rem;
     line-height: 1;
-    left: -3rem;
+    left: -2rem;
     vertical-align: text-bottom;
 }

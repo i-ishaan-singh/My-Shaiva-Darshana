@@ -6,13 +6,18 @@ const getFontSize = function(){
 
     var width = document.body.getBoundingClientRect().width;
 
-    if(width < 300){
+    if(width < 320){
         return 8;
-    }
-    if(width<1920){
+    }else if(width<850){
+        return 13;
+    }else if(width<1600){
         return 15;
+    }else if(width<1920){
+        return 18;
     }else if(width<2024){
         return 20;
+    }else if(width<2699){
+        return 25;
     }
 
     return 30;

@@ -13,4 +13,16 @@
 .shiva-verse-sanskrit {
     white-space: pre-line;
     padding-bottom: 0.6rem;
+    word-break: break-word;
+}
+
+
+@media screen and (max-width: 850px){
+    .shiv-book-sub-name {
+        text-indent: 5rem;
+    }
+
+    .typo-accent.chapter-english-name {
+        text-indent: 2rem;
+    }
 }

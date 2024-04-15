@@ -10,11 +10,11 @@ const TantraList = function(){
 const text = {
     "Shiv Sutra":{
         "description": "Written by VasuGupta, the Shiva Sutras consist of 77 sutras that succinctly encapsulate profound spiritual truths, which are meant to be experienced through direct realization.",
-        "url": '/literature/books?name=shivsutra'
+        "url": '/My-Shaiva-Darshana/literature/books?name=shivsutra'
     },
     "Shattrimshat Tattva Sandoha":{
         "description": "A text describing the creation of the world through the 36 elements of creation.",
-        "url": '/literature/books?name=shattrimshattattva'
+        "url": '/My-Shaiva-Darshana/literature/books?name=shattrimshattattva'
     },
     "Spanda Kārikās": {
         "description": "This term signifies both vibrationless vibration and divine pulsation. The verses explore the dynamic aspect of consciousness, emphasizing that the entire universe arises from this pulsating essence."
