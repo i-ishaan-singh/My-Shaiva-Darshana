@@ -1,0 +1,25 @@
+#root{
+  background: #121212;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
+
+}
+
+.shiva-app {
+  background: #fafafa;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+
+.full-container.scroll-container{
+  overflow: auto;
+}
+
+.shiv-content-link {
+  text-align: right;
+  font-size: 0.8rem;
+}

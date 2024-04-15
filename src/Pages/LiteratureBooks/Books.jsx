@@ -1,0 +1,39 @@
+import { SectionHeader } from '../../Components/SectionHeader/SectionHeader';
+import { Footer } from '../Footer/Footer';
+import React from 'react';
+import ShivSutra from './assets/shivasutra';
+import ShattrimshatTattva from './assets/Shattrimshattattva';
+import { useQueryParms } from '../../Utils/Query/useQueryParams';
+import { SectionSeparator } from '../../Components/SectionSeparator/SectionSeparator';
+
+
+const map ={
+    shivsutra: ShivSutra,
+    shattrimshattattva: ShattrimshatTattva
+ }
+
+const BooksPage = function(){
+
+    const {name} = useQueryParms();
+
+    var Renderer = React.useMemo(() => {
+
+       if(map[name]){
+            return map[name];
+       }
+
+    }, [name]);
+
+    if(!Renderer){
+        return null;
+    }
+
+    return (<div>
+                <SectionHeader name="Shaiva Literature" />
+                <Renderer/>
+                <SectionSeparator/>
+                <Footer />
+            </div>)
+}
+
+export {BooksPage}

@@ -1,0 +1,11 @@
+img.image-text-img {
+    height: 17rem;
+    vertical-align: baseline;
+    border: 0.5rem solid #c45706;
+    border-radius: 1rem;
+    border-top-left-radius: 0.1rem;
+}
+
+.image-text-section {
+    align-items: flex-end;
+}

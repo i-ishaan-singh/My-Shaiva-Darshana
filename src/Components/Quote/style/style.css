@@ -1,0 +1,26 @@
+
+.quote-text.typo-accent {
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+
+.quote-wrapper {
+    position: relative;
+}
+
+.quote-wrapper:before {
+    content: '"';
+    position: absolute;
+    color: #e0bc0b;
+    font-family: 'Merienda';
+    font-size: 11rem;
+    top: -2rem;
+    line-height: 1;
+    left: -3rem;
+    vertical-align: text-bottom;
+}
