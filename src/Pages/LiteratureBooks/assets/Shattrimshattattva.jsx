@@ -15,7 +15,7 @@ const bookData = {
             verses: [
                 {
                     "sanskrit": "यदयमनुत्तरमूर्तिर्नजेच्छयाखिलमिदं जगत्स्रष्टुम्।\nपस्पन्दे स स्पन्दः प्रथमः शिवतत्त्वमुच्यते तज्ज्ञैः॥१॥",
-                    "english": "This Anuttaramūrti (That whose form is the Highest Reality (Anuttara)), whose form represents the Highest Reality, vibrated into existence according to its own will to manifest the entire world. The initial vibration is recognized as the Śiva-tattva by those who understand Anuttaramūrti. ||1||"
+                    "english": "This Anuttaramūrti, whose form represents the Highest Reality, vibrated into existence according to its own will to manifest the entire world. The initial vibration is recognized as the Śiva-tattva by those who understand Anuttaramūrti. ||1||"
                 },
                 {
                     "sanskrit": "इच्छा सैव स्वच्छा सन्ततसमवायिनी सती शक्तिः।\nसचराचरस्य जगतो बीजं निखिलस्य निजनिलीनस्य॥२॥",
@@ -23,7 +23,7 @@ const bookData = {
                 },
                 {
                     "sanskrit": "स्वेच्छाशक्त्युद्गीर्णं जगदात्मतया समाच्छाद्य।\nनिवसन् स एव निखिलानुग्रहनिरतः सदाशिवोऽभिहितः॥३॥",
-                    "english": "Completely enveloping the world, which emanated from His own Icchāśakti (the Power of Will), with the Self (specifically the ‘Aham’ or ‘I’ aspect), He is recognized as Sadāśiva—the third tattva or category—whose unwavering devotion bestows divine Grace. ||3||"
+                    "english": "Completely enveloping the world, which emanated from His own Icchāśakti (the Power of Will), with the Self (specifically the 'Aham' or 'I' aspect), He is recognized as Sadāśiva—the third tattva or category—whose unwavering devotion bestows divine Grace. ||3||"
                 },
                 {
                     "sanskrit": "विश्वं पश्चात्पश्यनिदन्तया निखिलमीश्वरो जातः।\nसा भवति शुद्धविद्या येदन्ताहन्तयोरभेदमतिः॥४॥",
@@ -47,7 +47,7 @@ const bookData = {
                 },
                 {
                     "sanskrit": "सर्वज्ञतास्य शक्तिः परिमिततनुरल्पवेद्यमात्रपरा।\nज्ञानमुत्पादयन्ती विद्येति निगद्यते बुधैराद्यैः॥९॥",
-                    "english": "His Omniscience, though taking on a limited form, is focused on a select few knowables—objects within its scope. This contracted Omniscience is referred to as ‘Vidyā’ by the ancient sages, as it facilitates the acquisition of knowledge. ||9||"
+                    "english": "His Omniscience, though taking on a limited form, is focused on a select few knowables—objects within its scope. This contracted Omniscience is referred to as 'Vidyā' by the ancient sages, as it facilitates the acquisition of knowledge. ||9||"
                 },
                 {
                     "sanskrit": "नित्यपरिपूर्णतृप्तिः शक्तिस्तस्यैव परिमिता तु सती।\nभोगेषु रञ्जयन्ती सततममुं रागतत्त्वतां याता॥१०॥",

@@ -23,13 +23,13 @@ const AbhinavGupta = function(){
                         {`Abhinavagupta lived during the same period as the renowned philosopher Sankaracharya (approximately 788 to 820 CE). 
                         His father, Narasinhagupta (also known as Chukhulaka), and his mother, Vimalakala, played significant roles in shaping his upbringing.
                         
-                        Abhinavagupta’s five cousins—Ksema, Utpala, Abhinava, Chakraka, and Padamgupta—were also highly educated. 
+                        Abhinavagupta's five cousins—Ksema, Utpala, Abhinava, Chakraka, and Padamgupta—were also highly educated. 
                         It is unnecessary to emphasize that his father, Narasimhagupta, possessed exceptional intellectual abilities. 
                         Proficient in all the Shastras and a devoted follower of Shiva, Narasimhagupta created an environment of unwavering devotion and unparalleled learning. Within this nurturing atmosphere, Abhinavagupta was mentally prepared to embark on the monumental task that awaited him.`}
                     </SubSectionText>
 
                     <SubSectionText header="Quest for Knowledge">
-                        {`Abhinavagupta’s thirst for knowledge was insatiable. He sought wisdom from a diverse array of Gurus, both within and outside Kashmir.
+                        {`Abhinavagupta's thirst for knowledge was insatiable. He sought wisdom from a diverse array of Gurus, both within and outside Kashmir.
                         His eclectic education included the following subjects:
                         `}
 
@@ -72,7 +72,7 @@ const AbhinavGupta = function(){
                     </SubSectionText>
 
                     <SubSectionText header="Influence">
-                        {`Despite the passage of time, Abhinavagupta’s fame endured. Chronicler Kalhana, who chronicled Kashmir’s history, could not overlook the powerful tradition associated with Abhinavagupta. 
+                        {`Despite the passage of time, Abhinavagupta's fame endured. Chronicler Kalhana, who chronicled Kashmir's history, could not overlook the powerful tradition associated with Abhinavagupta. 
                         His literary period spanned from approximately 990 to 1015 CE (corresponding to the laukika or Saptarsi era).`}
                     </SubSectionText>
 

@@ -17,13 +17,14 @@ const text = {
         "url": '/My-Shaiva-Darshana/literature/books?name=shattrimshattattva'
     },
     "Spanda Kārikās": {
+        "url": '/My-Shaiva-Darshana/literature/books?name=spandakarika',
         "description": "This term signifies both vibrationless vibration and divine pulsation. The verses explore the dynamic aspect of consciousness, emphasizing that the entire universe arises from this pulsating essence."
     },
     "Tantrāloka": {
         "description": " A monumental work by the great scholar Abhinavagupta, the Tantrāloka expounds on Tantrik practice and philosophy in over 5,800 verses1. It serves as a comprehensive guide to Kashmir Shaivism."
     },
     "Netra Tantram": {
-        "description": " This scripture is part of the core teachings of Kashmir Shaivism. It has been commented upon by Abhinavagupta’s disciple, Kṣemarāja."
+        "description": " This scripture is part of the core teachings of Kashmir Shaivism. It has been commented upon by Abhinavagupta's disciple, Kṣemarāja."
     },
     "Mālinī Vijaya Tantram": {
         "description": " Another significant text that explores the intricacies of this mystical tradition."
@@ -80,7 +81,7 @@ const text = {
         "description": " Yet another commentary by Kṣemarāja, this time on the Pratyabhijñā Hṛdayam. It sheds light on the heart of recognition (pratyabhijñā)."
     },
     "Mālinī Vijayottara Vimarśinī": {
-        "description": " A companion commentary by Kṣemarāja on the Mālinī Vijayottara Tantram. It delves into the subtleties of the goddess’s victorious energy."
+        "description": " A companion commentary by Kṣemarāja on the Mālinī Vijayottara Tantram. It delves into the subtleties of the goddess's victorious energy."
     },
     "Svacchanda Bhairava Stotra": {
         "description": " A hymn composed by Abhinavagupta, celebrating the fierce and liberating aspect of Bhairava."
@@ -110,10 +111,10 @@ const text = {
         "description": " Continuing his commentary tradition, Kṣemarāja enriches our understanding of the Pratyabhijñā Hṛdayam."
     },
     "Mālinī Vijayottara Vimarśinī Vyākhyā": {
-        "description": " An in-depth commentary by Kṣemarāja on the Mālinī Vijayottara Tantram. It unveils the goddess’s victorious energy and its significance."
+        "description": " An in-depth commentary by Kṣemarāja on the Mālinī Vijayottara Tantram. It unveils the goddess's victorious energy and its significance."
     },
     "Svacchanda Bhairava Stotra Vyākhyā": {
-        "description": " A detailed explanation by Kṣemarāja of Abhinavagupta’s hymn, celebrating the fierce and liberating aspect of Bhairava."
+        "description": " A detailed explanation by Kṣemarāja of Abhinavagupta's hymn, celebrating the fierce and liberating aspect of Bhairava."
     },
     "Vijñāna Bhairava Tātparya Nirnaya Vyākhyā": {
         "description": " A profound treatise by the sage Abhinavagupta, unraveling the inner meanings (tātparya) of the Vijñāna Bhairava Tantra. It guides the seeker toward direct experiential knowledge."
@@ -164,7 +165,7 @@ const text = {
         "description": " Dakṣina signifies the “right” or “southern” path. This tantra explores the path of grace, devotion, and surrender to Bhairava."
     },
     "Ugra Bhairava Tantra": {
-        "description": " Ugra means “fierce” or “terrifying.” This tantra delves into the transformative power of Bhairava’s fierce aspect and how it leads to liberation."
+        "description": " Ugra means “fierce” or “terrifying.” This tantra delves into the transformative power of Bhairava's fierce aspect and how it leads to liberation."
     },
     "Svacchandatantram": {
         "description": " The main body of the text, containing over 3,000 shlokas (metrical verses). It highlights the rituals, practices, and philosophy associated with Svacchanda Bhairava."

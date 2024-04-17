@@ -29,6 +29,7 @@ const LiteratureCards = function(){
                     />
                     <Card 
                         imageSrc={spandha}
+                        redirectPath="/My-Shaiva-Darshana/literature/books?name=spandakarika"
                         header="SpandaKarika"
                         description="This term signifies both vibrationless vibration and divine pulsation. The verses explore the dynamic aspect of consciousness, emphasizing that the entire universe arises from this pulsating essence."
                     />
@@ -40,7 +41,7 @@ const LiteratureCards = function(){
 
                 </CardGroup>
                 <div className="header-gap-top">
-                    <LeftNavigation url="/literature-list">Explore All Literature</LeftNavigation>
+                    <LeftNavigation url="/My-Shaiva-Darshana/literature-list">Explore All Literature</LeftNavigation>
                 </div>
             </div>)
 }

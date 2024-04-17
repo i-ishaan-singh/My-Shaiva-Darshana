@@ -3,12 +3,14 @@ import { Footer } from '../Footer/Footer';
 import React from 'react';
 import ShivSutra from './assets/shivasutra';
 import ShattrimshatTattva from './assets/Shattrimshattattva';
+import SpandaKarika from './assets/spandakarika';
 import { useQueryParms } from '../../Utils/Query/useQueryParams';
 
 
 const map ={
     shivsutra: ShivSutra,
-    shattrimshattattva: ShattrimshatTattva
+    shattrimshattattva: ShattrimshatTattva,
+    spandakarika: SpandaKarika
  }
 
 const BooksPage = function(){

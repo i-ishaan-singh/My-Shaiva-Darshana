@@ -30,7 +30,7 @@ const AcharyasCards = function(){
                     <Card 
                         imageSrc={somananda}
                         header="Somananda"
-                        description="A revered teacher in the lineage, Somananda’s work “Shivadrishti” delves into the nature of reality, emphasizing direct perception (drishti) of Shiva."
+                        description="A revered teacher in the lineage, Somananda's work “Shivadrishti” delves into the nature of reality, emphasizing direct perception (drishti) of Shiva."
                     />
                     <Card 
                         imageSrc={laxman}
