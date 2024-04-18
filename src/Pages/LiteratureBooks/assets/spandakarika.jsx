@@ -126,7 +126,23 @@ const bookData = {
                 },
                 {
                     "sanskrit": "तत्रैव सम्प्रलीयन्ते शान्तरूपा निरञ्जनाः।\nसहाराधकचित्तेन तेनैते शिवधर्मिणः॥२॥",
-                    "english": "In that very place, the tranquil forms of the unblemished ones merge. By the mind that reverently adores, these are the bearers of the Śiva-dharma. ||2||"
+                    "english": "In that very place, the peaceful and pure beings merge. They are absorbed by the yogi's focused mind. These beings embody the essence of Śiva. ||2||"
+                },
+                {
+                    "sanskrit": "यस्मात्सर्वमयो जीवः सर्वभावसमुद्भवात्।\nतत्संवेदनरूपेण तादात्म्यप्रतिपत्तितः॥३॥",
+                    "english": "Because the entire universe arises from the essence of the individual soul (jīva), which is the source of all states of existence, it is realized through the form of self-identity (tādātmya). ||3||"
+                },
+                {
+                    "sanskrit": "तस्माच्छब्दार्थचिन्तासु न सावस्था न या शिवः।\nभोक्तैव भोग्यभावेन सदा सर्वत्र संस्थितः॥४॥",
+                    "english": "Therefore, in the contemplation of word and meaning, there is neither a stable state nor the Supreme Śiva. Instead, Śiva always exists as the experiencer (bhoktā) through the state of being the object of experience (bhogyabhāva). ||4||"
+                },
+                {
+                    "sanskrit": "अयमेवोदयस्तस्य ध्येयस्य ध्यायिचेतसि।\nतदात्मतासमापत्तिरिच्छतः साधकस्य या॥६॥",
+                    "english": "This very emergence is for the meditator who contemplates the object of meditation. The the self-identity is attained by the practitioner. ||6||"
+                },
+                {
+                    "sanskrit": "इयमेवामृतप्राप्तिरयमेवात्मनो ग्रहः।\nइयं निर्वाणदीक्षा च शिवसद्भावदायिनी॥७॥",
+                    "english": "Obtaining this Nectar that leads to immortality and perceiving the Self—this initiation, which paves the way for Nirvāṇa or final emancipation, bestows the true state of Śiva. ||7||"
                 },
                 
             ]
@@ -135,8 +151,86 @@ const bookData = {
             nameSanskrit: 'विभूतिस्पन्द',
             name: 'Supernatural powers originating from Spanda',
             verses: [
-              
-                
+                {
+                    "sanskrit": "यथेच्छाभ्यर्थितो धाता जाग्रतोऽर्थान् हृदि स्थितान्।\nसोमसूर्योदयं कृत्वा सम्पादयति देहिनः॥१॥",
+                    "english": "The One who responds according to desire, when invoked by the seeker, brings forth the goals residing in the heart of the awakened embodied being, when the Ida and Pingala Nadi is active. ||1||"
+                },
+                {
+                    "sanskrit": "यथेच्छाभ्यर्थितो धाता जाग्रतोऽर्थान् हृदि स्थितान्।\nसोमसूर्योदयं कृत्वा सम्पादयति देहिनः॥१॥",
+                    "english": "In a similar manner, even during dreams, the One who governs the Sushumna channel unfailingly manifests all desired aspirations and objectives, as that One never ignores any heartfelt supplication. ||2||"
+                },
+                {
+                    "sanskrit": "अन्यथा तु स्वतन्त्रा स्यात्सृष्टिस्तद्धर्मकत्वतः।\nसततं लौकिकस्येव जाग्रत्स्वप्नपदद्वये॥३॥",
+                    "english": "Otherwise, creation would be independent and would possess its own nature. However, just like in the waking and dream states, it is constantly dependent on the Supreme Consciousness. ||3||"
+                },
+                {
+                    "sanskrit": "यथा ह्यर्थोऽस्फुटो दृष्टः सावधानेऽपि चेतसि।\nभूयः स्फुटतरो भाति स्वबलोद्योगभावितः॥४॥",
+                    "english": "Just as an unclear object, when observed attentively, becomes clearer, similarly, through the practice of inner focus, one’s perception becomes even more distinct, like the rising sun illuminating the world. ||4||"
+                },
+                {
+                    "sanskrit": "तथा यत्परमार्थेन येन यत्र यथा स्थितम्।\nतत्तथा बलमाक्रम्य न चिरात्सम्प्रवर्तते॥५॥",
+                    "english": "In the same way, even while dreaming, that One who is in control of the Sushumna always clearly reveals all desired things and goals, because that One never disregards any loving entreaty. ||5||"
+                },
+                {
+                    "sanskrit": "दुर्बलोऽपि तदाक्रम्य यतः कार्ये प्रवर्तते।\nआच्छादयेद्बुभुक्षां च तथा योऽतिबुभुक्षितः॥६॥",
+                    "english": "Even though weak, by gradually approaching that which needs to be done, one becomes capable. Similarly, just as a hungry person covers themselves and eats, so too does the one who is excessively hungry. ||6||"
+                },
+                {
+                    "sanskrit": "अनेनाधिष्ठिते देहे यथा सर्वज्ञतादयः।\nतथा स्वात्मन्यधिष्ठानात्सर्वत्रैवं भविष्यति॥७॥",
+                    "english": "In the same way, even though situated within this body, just as all-knowing entities are established, similarly, by being firmly established in one’s own self, one will exist everywhere in this manner. ||7||"
+                },
+                {
+                    "sanskrit": "ग्लानिर्विलुण्ठिका देहे तस्याश्चाज्ञानतः सृतिः।\nतदुन्मेषविलुप्तं चेत्कुतः सा स्यादहेतुका॥८॥",
+                    "english": "In the same way, till the body is weak, due to ignorance, the cycle of existence (sṛtiḥ) occurs. If that ignorance is suddenly dispelled, how can this cycle continue without a cause? ||8||"
+                },
+                {
+                    "sanskrit": "एकचिन्ताप्रसक्तस्य यतः स्यादपरोदयः।\nउन्मेषः स तु विज्ञेयः स्वयं तमुपलक्षयेत्॥९॥",
+                    "english": "In the same way, even though absorbed in single-pointed contemplation, that which is beyond ordinary perception arises. Recognize that extraordinary, you emerge in your own true nature. ||9||"
+                },
+                {
+                    "sanskrit": "अतो विन्दुरतो नादो रूपमस्मादतो रसः।\nप्रवर्तन्तेऽचिरेणैव क्षोभकत्वेन देहिनः॥१०॥",
+                    "english": "From this emergence (Unmeṣa), divine light (Vindu), divine sound (Nāda), divine form (Rūpa), and divine taste (Rasa) soon manifest to an embodied soul, causing a sense of disturbance. ||10||"
+                },
+                {
+                    "sanskrit": "अतो विन्दुरतो नादो रूपमस्मादतो रसः।\nप्रवर्तन्तेऽचिरेणैव क्षोभकत्वेन देहिनः॥१०॥",
+                    "english": "From this emergence (Unmeṣa), divine light (Vindu), divine sound (Nāda), divine form (Rūpa), and divine taste (Rasa) soon manifest to an embodied soul, causing a sense of disturbance. ||10||"
+                },
+                {
+                    "sanskrit": "दिदृक्षयेव सर्वार्थान्यदा व्याप्यावतिष्ठते।\nतदा किं बहुनोक्तेन स्वयमेवावभोत्स्यते॥११॥",
+                    "english": "If a yogi wishes to perceive all objects as if pervading them, why speak much about it? The yogi will directly experience it for themselves! ||11||"
+                },
+                {
+                    "sanskrit": "प्रबुद्धः सर्वदा तिष्ठेज्ज्ञानेनालोक्य गोचरम्।\nएकत्रारोपयेत्सर्वं ततोऽन्येन न पीड्यते॥१२॥",
+                    "english": "By understanding everything within the scope of one’s perception, one should remain constantly aware and gather all aspects together—like gathering them in the essence of Spanda. As a result, the individual remains unaffected or untroubled by external factors. ||12||"
+                },
+                {
+                    "sanskrit": "शब्दराशिसमुत्थस्य शक्तिवर्गस्य भोग्यताम्।\nकलाविलुप्तविभवो गतः सन्स पशुः स्मृतः॥१३॥",
+                    "english": "A person whose glory is diminished by Kalā (the power of limitation) becomes vulnerable to the influence of various forces arising from language. Consequently, such an individual is referred to as a ‘paśu’ or a limited being. ||13||"
+                },
+                {
+                    "sanskrit": "परामृतरसापायस्तस्य यः प्रत्ययोद्भवः।\nतेनास्वतन्त्रतामेति स च तन्मात्रगोचरः॥१४॥",
+                    "english": "The emergence of thoughts within the limited being signifies a depletion of the essence of the Supreme Nectar of Immortality. As a result, the conditioned individual becomes reliant. This process of thought has its impact on the subtle features of all things, known as Tanmātras. ||14||"
+                },
+                {
+                    "sanskrit": "स्वरूपावरणे चास्य शक्तयः सततोत्थिताः।\nयतः शब्दानुवेधेन न विना प्रत्ययोद्भवः॥१५॥",
+                    "english": "The inherent powers are always prepared to obscure the true nature of the limited being, as ideas cannot arise without the interplay of words. ||15||"
+                },
+                {
+                    "sanskrit": "सेयं क्रियात्मिका शक्तिः शिवस्य पशुवर्तिनी।\nबन्धयित्री स्वमार्गस्था ज्ञाता सिद्ध्युपपादिका॥१६॥",
+                    "english": "This very Power or Śakti of Śiva , whose nature is activity , abides in the paśu or conditioned being (and) binds (him) . (However, when Śakti) is known or realized as staying (in the aforesaid paśu) like the way toward one's own Self , produces success. ||16||"
+                },
+                {
+                    "sanskrit": "तन्मात्रोदयरूपेण मनोऽहम्बुद्धिवर्तिना।\nपुर्यष्टकेन संरुद्धस्तदुत्थं प्रत्ययोद्भवम्॥१७॥",
+                    "english": "The limited individual, completely enveloped by the influence of Puryaṣṭaka (which arises from the subtle elements or Tanmātras), experiences the emergence of thoughts within the mind, ego, and intellect. These thoughts lead to pleasure and pain, and the individual becomes engrossed in their enjoyment. As a result of this continuous cycle, the individual transmigrates through various states of existence. ||17||"
+                },
+                {
+                    "sanskrit": "भुङ्क्ते परवशो भोगं तद्भावात्संसरेदतः।\nसंसृतिप्रलयस्यास्य कारणं सम्प्रचक्ष्महे॥१८॥",
+                    "english": "The subservient being (paśu) partakes in the enjoyment of experiences influenced by Puryaṣṭaka. This enjoyment binds them to the cycle of transmigration. The dissolution and creation of the universe are intricately connected to this process. ||18||"
+                },
+                {
+                    "sanskrit": "यदा त्वेकत्र संरूढस्तदा तस्य लयोदयौ।\nनियच्छन्भोक्तृतामेति ततश्चक्रेश्वरो भवेत्॥१९॥",
+                    "english": "But when firmly rooted in the principle of Spanda, the ex-limited being gains control over the disappearance and emergence of Puryaṣṭaka. As a result, they become the true enjoyer and, consequently, the Lord of the group of śaktis or powers. ||19||"
+                },
                 
             ]
         },
@@ -144,7 +238,14 @@ const bookData = {
             nameSanskrit: 'निष्कर्ष',
             name: 'Conclusion',
             verses: [
-               
+                {
+                    "sanskrit": "अगाधसंशयाम्भोधिसमुत्तरणतारिणीम्।\nवन्दे विचित्रार्थपदां चित्रां तां गुरुभारतीम्॥१॥",
+                    "english": "I bow to the magnificent teachings of the Guru, filled with diverse words and their profound meanings, guiding one safely across the boundless ocean of uncertainty. ||1||"
+                },
+                {
+                    "sanskrit": "लब्ध्वाप्यलभ्यमेतज्ज्ञानधनं हृद्गुहान्तकृतनिहितेः।\nवसुगुप्तवच्छिवाय हि भवति सदा सर्वलोकस्य॥२॥",
+                    "english": "Moreover, acquiring this precious knowledge, which is hard to attain, and safeguarding it within the inner sanctum of the heart, undoubtedly benefitting the entire world, just as done by Vasugupta. ||2||"
+                },
                 
             ]
         }
