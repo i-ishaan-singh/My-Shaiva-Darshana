@@ -94,7 +94,7 @@ const bookData = {
                     "english": "The three states of waking, dreaming, and deep sleep, the organs of action such as legs, the earth with its fragrance, and even the water, which is the essence of success and brilliance. ||20||"
                 },
                 {
-                    "sanskrit": "गमनविसर्गानन्दत्रितये पादादिकं करणम्।\nगन्धवती भूमिः स्यादापः सांसिद्धिकद्रवास्तेजः॥२०॥",
+                    "sanskrit": "उष्णस्पर्शमरूपस्पर्शो वायुरम्बरं सशब्दम्।\nषट्त्रिंशत्तत्त्वमयं वन्दे कौलं कुलातिगं शम्भुम्॥२१॥",
                     "english": "The touch that feels neither hot nor cold, the air that is sound, and the thirty-six elements —I bow to Lord Shiva who transcends the limitations of lineage and family. ||20||"
                 },
                 

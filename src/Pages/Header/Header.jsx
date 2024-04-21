@@ -13,7 +13,7 @@ const Header = function(props){
     })
 
     const _backToHome = useNaviagatonCallback({
-        url: '/My-Shaiva-Darshana'   
+        url: '/My-Shaiva-Darshana/'   
     }) 
 
     return (<div className={_className}>

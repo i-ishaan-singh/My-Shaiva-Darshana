@@ -9,7 +9,7 @@ const MainRouter = function(){
     return (<Routes>
                 <Route 
                     index 
-                    path="/My-Shaiva-Darshana"
+                    path="/My-Shaiva-Darshana/"
                     element={<HomePage />}
                 /> 
                 <Route 

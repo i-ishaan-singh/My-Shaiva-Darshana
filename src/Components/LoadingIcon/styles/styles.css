@@ -1,0 +1,29 @@
+
+.loading-section {
+    min-height: 40vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.loading-icon-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    padding: 1rem;
+    background-image: radial-gradient(#e1bf0b, #c45706, #c45706);
+    background-position: -50rem -50rem;
+    background-size: 100rem 100rem;
+    background-repeat: no-repeat;
+    background-color: #c45706;
+}
+
+.loading-icon-container > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}

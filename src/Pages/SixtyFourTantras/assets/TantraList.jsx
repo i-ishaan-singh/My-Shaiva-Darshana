@@ -21,7 +21,9 @@ const text = {
         "description": "This term signifies both vibrationless vibration and divine pulsation. The verses explore the dynamic aspect of consciousness, emphasizing that the entire universe arises from this pulsating essence."
     },
     "Tantrāloka": {
-        "description": " A monumental work by the great scholar Abhinavagupta, the Tantrāloka expounds on Tantrik practice and philosophy in over 5,800 verses1. It serves as a comprehensive guide to Kashmir Shaivism."
+        "description": " A monumental work by the great scholar Abhinavagupta, the Tantrāloka expounds on Tantrik practice and philosophy in over 5,800 verses1. It serves as a comprehensive guide to Kashmir Shaivism.",
+        "url": '/My-Shaiva-Darshana/literature/books?name=tantraloka-vol1',
+        "isPDF": true
     },
     "Netra Tantram": {
         "description": " This scripture is part of the core teachings of Kashmir Shaivism. It has been commented upon by Abhinavagupta's disciple, Kṣemarāja."
@@ -30,7 +32,9 @@ const text = {
         "description": " Another significant text that explores the intricacies of this mystical tradition."
     },
     "Mālinī Vijayottara Tantram": {
-        "description": " A companion text to the Mālinī Vijaya Tantram, delving deeper into the esoteric practices."
+        "description": " A companion text to the Mālinī Vijaya Tantram, delving deeper into the esoteric practices.",
+        "url": '/My-Shaiva-Darshana/literature/books?name=malinivijayottaratanra',
+        "isPDF": true
     },
     "Guhyakālikā Chapter of the Mahākāla Samhitā": {
         "description": " Although not exclusively a Kashmir Shaivism scripture, it has influenced this tradition significantly."

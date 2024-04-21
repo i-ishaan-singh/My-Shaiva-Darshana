@@ -1,0 +1,92 @@
+.su-pdf-opened-page {
+    border: 0.4rem solid #c45706;
+    border-radius: 0.4rem;
+    position: relative;
+}
+
+.react-pdf__Page__textContent.textLayer {
+    display: none;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+    display: none;
+}
+
+.su-page-number-section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.fa.book-icons {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    flex-shrink: 0;
+    border: 0.1rem solid #c45706;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c45706;
+    line-height: 2rem;
+    color: #fafafa;
+}
+
+.fa.book-icons[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.pdf-buttons-section {
+    padding: 0 1rem;
+}
+
+input.page-input.shiv-input {
+    width: 4rem;
+}
+
+.su-pdf-opened-page.pdf-page-compressed {
+    max-height: calc(100vh - 10rem);
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.su-pdf-move-next-div {
+    position: absolute;
+    width: 25%;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    transition: 0.2s;
+}
+
+.su-pdf-move-next-div:hover {
+    box-shadow: -0.8rem 0.0rem 0.9rem -0.7rem #c45706 inset;
+}
+
+
+.su-pdf-move-prev-div {
+    position: absolute;
+    width: 25%;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transition: 0.2s;
+}
+
+.su-pdf-move-prev-div:hover {
+    box-shadow: 0.8rem 0.0rem 0.9rem -0.7rem #c45706 inset;
+}
+
+@media screen and (max-width: 1910px) {
+    
+    .su-pdf-opened-page.pdf-page-compressed {
+        max-height: calc(100vh - 11rem);
+    }
+}

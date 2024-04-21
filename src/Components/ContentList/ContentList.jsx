@@ -18,7 +18,11 @@ const ContentList = function(props){
                         <div className="shiv-content-description indent-base">
                             {_item.description}
                         </div>
-                        <LeftNavigation url={_item.url} >Explore Literature</LeftNavigation>
+                        <LeftNavigation url={_item.url} >
+                            <i className="fa fa-link" aria-hidden="true"></i>
+                            {' Explore Literature'}
+                            {!!_item.isPDF && <span> [PDF]</span>} 
+                        </LeftNavigation>
                     </div>)
 
         });

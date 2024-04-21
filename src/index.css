@@ -168,6 +168,14 @@
   align-items: center;
 }
 
+.align-end{
+  align-items: flex-end;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
 .gap-1x{
   gap: 1rem;
 }
@@ -575,4 +583,26 @@ a:active {
   flex-shrink: 0;
   transform: rotate(45deg);
   border-radius: 0.1rem;
+}
+
+/********* Input ***********/
+
+.shiv-input {
+  font-size: inherit;
+  border: none;
+  border-bottom: 0.1rem solid #c45706;
+  font-family: inherit;
+  padding: 0 0.5rem;
+  background: transparent;
+}
+
+.shiv-input:hover {
+  background: #c4580615;
+}
+
+.shiv-input:focus {
+  outline: none;
+  background: #c4580615;
+  border: none;    
+  border-bottom: 0.1rem solid #a34a06;
 }
