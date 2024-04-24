@@ -6,6 +6,7 @@ import abhinavgupta from '../../../assets/images/abhinavgupta.jpg';
 import somananda from '../../../assets/images/somananda.jpg';
 import laxman from '../../../assets/images/laxman.jpg';
 import lineage from '../../../assets/images/lineage.jpeg';
+import { LeftNavigation } from "../../../Components/LeftNavigation/LeftNavigation";
 
 const AcharyasCards = function(){
 
@@ -39,8 +40,10 @@ const AcharyasCards = function(){
                     />
 
                 </CardGroup>
-                <img src={lineage} className="guru-parampara full-width-image"/>
-                
+                <img src={lineage} className="guru-parampara full-width-image sub-section-gap"/>
+                <div className="header-gap-top">
+                    <LeftNavigation className="link-button" url="/My-Shaiva-Darshana/guru-parampara">Explore Guruparampara</LeftNavigation>
+                </div>
             </div>)
 }
 

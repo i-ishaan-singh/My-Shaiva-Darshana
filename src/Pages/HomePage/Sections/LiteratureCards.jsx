@@ -41,7 +41,7 @@ const LiteratureCards = function(){
 
                 </CardGroup>
                 <div className="header-gap-top">
-                    <LeftNavigation url="/My-Shaiva-Darshana/literature-list">Explore All Literature</LeftNavigation>
+                    <LeftNavigation className="link-button" url="/My-Shaiva-Darshana/literature-list">Explore All Literature</LeftNavigation>
                 </div>
             </div>)
 }

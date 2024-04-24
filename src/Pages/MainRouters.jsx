@@ -3,6 +3,7 @@ import { HomePage } from './HomePage/HomePage';
 import { BooksPage } from "./LiteratureBooks/Books";
 import { SFTantraList } from "./SixtyFourTantras/SFTantras";
 import { GuruPage } from "./GuruPage/GuruPage";
+import { GuruParampara } from "./GuruParampara/GuruParampara";
 
 const MainRouter = function(){
 
@@ -23,6 +24,10 @@ const MainRouter = function(){
                 <Route 
                     path="/My-Shaiva-Darshana/personalities" 
                     element={<GuruPage />}
+                /> 
+                <Route 
+                    path="/My-Shaiva-Darshana/guru-parampara" 
+                    element={<GuruParampara />}
                 /> 
             </Routes>);
 

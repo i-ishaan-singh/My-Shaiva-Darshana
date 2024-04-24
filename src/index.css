@@ -513,7 +513,6 @@ img.shiv-card-image {
 
 .full-width-image {
   width: 100%;
-  margin: 5rem 0;
   box-shadow: 0 0 0 3px black, 0 0 0 0.5rem #c45706;
 }
 
@@ -605,4 +604,20 @@ a:active {
   background: #c4580615;
   border: none;    
   border-bottom: 0.1rem solid #a34a06;
+}
+
+/** Link Button *****/
+
+.link-button a:hover {
+  box-shadow: 3px 3px 3px #00000091;
+}
+
+.link-button a {
+  border: 2px solid #c45706;
+  display: inline-flex;
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.4rem;
+  text-decoration: auto;
+  box-shadow: 1px 1px 3px #000000ab;
+  transition: 0.2s;
 }
