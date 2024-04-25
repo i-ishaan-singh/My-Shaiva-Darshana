@@ -4,6 +4,7 @@ import { BooksPage } from "./LiteratureBooks/Books";
 import { SFTantraList } from "./SixtyFourTantras/SFTantras";
 import { GuruPage } from "./GuruPage/GuruPage";
 import { GuruParampara } from "./GuruParampara/GuruParampara";
+import { TrikaMandala } from "./TrikaMandala/TrikaMandala";
 
 const MainRouter = function(){
 
@@ -28,6 +29,10 @@ const MainRouter = function(){
                 <Route 
                     path="/My-Shaiva-Darshana/guru-parampara" 
                     element={<GuruParampara />}
+                /> 
+                <Route 
+                    path="/My-Shaiva-Darshana/meditations/trika-mandala" 
+                    element={<TrikaMandala />}
                 /> 
             </Routes>);
 

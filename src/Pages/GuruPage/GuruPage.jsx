@@ -5,10 +5,12 @@ import { useQueryParms } from "../../Utils/Query/useQueryParams"
 import { Footer } from "../Footer/Footer"
 import { AbhinavGupta } from "./assets/AbhinavGupta"
 import { VasuGupta } from "./assets/VasuGupta"
+import { Utpaladeva } from "./assets/Utpaladeva"
 
 const map ={
     vasugupta: VasuGupta,
-    abhinavgupta: AbhinavGupta
+    abhinavgupta: AbhinavGupta,
+    utpaladeva: Utpaladeva,
  }
 
 const GuruPage = function(){

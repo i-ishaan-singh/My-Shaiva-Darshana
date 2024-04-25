@@ -384,6 +384,7 @@ const GuruParampara = function(){
                             </span>
                         </div>
                         <div className="padd-text pad-b-3x">
+                            <NavigationLink to="/My-Shaiva-Darshana/personalities?name=utpaladeva"><i className="fa fa-link" aria-hidden="true"></i>Explore More</NavigationLink>
                         </div>
                         
                         <div className="point shiv-h6 ">
@@ -674,6 +675,18 @@ const GuruParampara = function(){
                     Current Acharayas:
                     </div>
                     <div className="padd-text">
+                        <div className="point shiv-h6 ">
+                            <span className="typo-accent ">
+                            Sri Sri Ravi Shankar
+                            </span>
+                        </div>
+                        <div className="padd-text pad-b-3x">
+                            Sri Sri Ravi Shankar is the chairman and President of the Abhinav Gupt Sandesh Yatra.
+                        </div>
+                        <div className="padd-text pad-b-3x">
+                            <a href={'https://www.artofliving.org/greatest-symbol-kashmir-identity-sri-sri'} target="_blank"><i className="fa fa-external-link" aria-hidden="true"></i>Know more</a>
+                        </div>
+
                         <div className="point shiv-h6 ">
                             <span className="typo-accent ">
                             Gabriel Pradīpaka (1997-current)

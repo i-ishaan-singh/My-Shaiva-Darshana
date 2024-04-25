@@ -1,6 +1,7 @@
 import { ImageTextSection } from "../../../Components/ImageTextSection/ImageTextSeection"
 import { Quote } from "../../../Components/Quote/Quoter";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
+import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
 import VasuGuptaImg from '../../../assets/images/vasugupta.png';
 
 
@@ -65,7 +66,13 @@ const VasuGupta = function(){
                         Param Shiva
                         </div>
                       
-                            {`Beyond mere words and concepts lies Param Shiva, the ultimate reality.`}
+                         {`Beyond mere words and concepts lies Param Shiva, the ultimate reality.
+                         
+                         `}
+                        <div>
+                            <NavigationLink to="/My-Shaiva-Darshana/literature/books?name=shivsutra"><i className="fa fa-link" aria-hidden="true"></i>Explore Literature</NavigationLink>
+                        </div>
+                        
                     </SubSectionText>
 
                     <SubSectionText header="Spanda Karikas">
@@ -96,7 +103,12 @@ const VasuGupta = function(){
 
                         {`Spanda defies easy explanation. It lies beyond all words and concepts. It is a divine reality that transcends limitations.
                         In the Spanda Karikas, Vasugupta guide us to that ineffable state where subject and object dissolve. Here, existence merges seamlessly into pure consciousness.
-                        So, contemplation on this pulsation, listening to its rhythm, pushes one to transformation.`}
+                        So, contemplation on this pulsation, listening to its rhythm, pushes one to transformation. 
+
+                        `}
+                       <div>
+                           <NavigationLink to="/My-Shaiva-Darshana/literature/books?name=spandakarika"><i className="fa fa-link" aria-hidden="true"></i>Explore Literature</NavigationLink>
+                       </div>
                     </SubSectionText>
 
                 </div>

@@ -9,6 +9,8 @@ import { Footer } from '../Footer/Footer';
 import { LiteratureCards } from './Sections/LiteratureCards';
 import { Quote } from '../../Components/Quote/Quoter';
 import { SectionSeparator } from '../../Components/SectionSeparator/SectionSeparator';
+import { TrikaMandala } from './Sections/TrikaMandala';
+import { GuruParampara } from './Sections/GuruParampara';
 
 const HomePage = function(){
 
@@ -22,6 +24,8 @@ const HomePage = function(){
                 </div>
                 <AboutShaivaism />
                 <LiteratureCards />
+                <TrikaMandala/>
+                <GuruParampara/>
                 <div className="shiv-section section-gap">
                     <Quote 
                         quote={"God and the individual are one. To realize this is the essence of Kashmir Shaivism."}

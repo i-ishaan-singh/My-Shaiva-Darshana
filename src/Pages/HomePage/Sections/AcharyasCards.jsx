@@ -4,9 +4,8 @@ import { CardGroup } from "../../../Components/Card/CardGroup"
 import vasuGupta from '../../../assets/images/vasugupta.png';
 import abhinavgupta from '../../../assets/images/abhinavgupta.jpg';
 import somananda from '../../../assets/images/somananda.jpg';
-import laxman from '../../../assets/images/laxman.jpg';
-import lineage from '../../../assets/images/lineage.jpeg';
-import { LeftNavigation } from "../../../Components/LeftNavigation/LeftNavigation";
+//import laxman from '../../../assets/images/laxman.jpg';
+import utpal from '../../../assets/images/utpaldeva.jpg';
 
 const AcharyasCards = function(){
 
@@ -34,16 +33,13 @@ const AcharyasCards = function(){
                         description="A revered teacher in the lineage, Somananda's work “Shivadrishti” delves into the nature of reality, emphasizing direct perception (drishti) of Shiva."
                     />
                     <Card 
-                        imageSrc={laxman}
-                        header="Lakshmana joo"
-                        description="A 20th-century sage who played a pivotal role in reviving Kashmir Shaivism. His teachings and practices inspired a new generation of practitioners."
+                        imageSrc={utpal}
+                        redirectPath="/My-Shaiva-Darshana/personalities?name=utpaldeva"
+                        header="Utpaldeva"
+                        description="Utpaladeva (c. 900-950 CE) was a towering figure in Kashmiri Shaivism, particularly the Pratyabhijñā school of monistic idealism."
                     />
 
                 </CardGroup>
-                <img src={lineage} className="guru-parampara full-width-image sub-section-gap"/>
-                <div className="header-gap-top">
-                    <LeftNavigation className="link-button" url="/My-Shaiva-Darshana/guru-parampara">Explore Guruparampara</LeftNavigation>
-                </div>
             </div>)
 }
 
