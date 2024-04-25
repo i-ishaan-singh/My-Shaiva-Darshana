@@ -6,12 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node postbuild.cjs",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://ishaananuraag.github.io/My-Shaiva-Darshana/",
+  "homepage": "https://i-ishaan-singh.github.io/My-Shaiva-Darshana/",
   "dependencies": {
     "classnames": "^2.5.1",
     "google-tts-api": "^2.0.2",
