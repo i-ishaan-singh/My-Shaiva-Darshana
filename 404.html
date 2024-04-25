@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>404 Redirect Shaiva Darshana</title>
     <script type="text/javascript">
-      var l = window.location, pn = window.encodeURIComponent(l.pathname)
+      var l = window.location, pn = window.encodeURIComponent(l.pathname+l.search)
       l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +'/My-Shaiva-Darshana/?redirect='+pn);
     </script>
   </head>
