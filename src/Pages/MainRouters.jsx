@@ -5,8 +5,20 @@ import { SFTantraList } from "./SixtyFourTantras/SFTantras";
 import { GuruPage } from "./GuruPage/GuruPage";
 import { GuruParampara } from "./GuruParampara/GuruParampara";
 import { TrikaMandala } from "./TrikaMandala/TrikaMandala";
+import { useQueryParms } from "../Utils/Query/useQueryParams";
+import React from "react";
+import { useNavigate } from 'react-router-dom'
 
 const MainRouter = function(){
+
+    const {redirect} = useQueryParms();
+    const navigate = useNavigate();
+
+    React.useEffect(function(){
+        if(redirect){
+            navigate(window.decodeURIComponent(redirect))
+        }
+    },[redirect, navigate])
 
     return (<Routes>
                 <Route 
