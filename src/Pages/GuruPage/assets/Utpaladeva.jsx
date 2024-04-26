@@ -122,4 +122,4 @@ const Utpaladeva = function(){
 
 }
 
-export {Utpaladeva}
+export default Utpaladeva

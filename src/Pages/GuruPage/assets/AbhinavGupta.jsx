@@ -210,4 +210,4 @@ const AbhinavGupta = function(){
 
 }
 
-export {AbhinavGupta}
+export default AbhinavGupta

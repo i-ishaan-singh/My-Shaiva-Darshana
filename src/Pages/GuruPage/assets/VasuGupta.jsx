@@ -129,4 +129,4 @@ const VasuGupta = function(){
 
 }
 
-export {VasuGupta}
+export default VasuGupta
