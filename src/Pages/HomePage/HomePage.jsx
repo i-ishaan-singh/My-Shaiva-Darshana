@@ -8,7 +8,6 @@ import { AcharyasCards } from './Sections/AcharyasCards';
 import { Footer } from '../Footer/Footer';
 import { LiteratureCards } from './Sections/LiteratureCards';
 import { Quote } from '../../Components/Quote/Quoter';
-import { SectionSeparator } from '../../Components/SectionSeparator/SectionSeparator';
 import { TrikaMandala } from './Sections/TrikaMandala';
 import { GuruParampara } from './Sections/GuruParampara';
 import { Pratyabhijna } from './Sections/Pratyabhijna';
@@ -35,7 +34,6 @@ const HomePage = function(){
                 <GuruParampara/>
                 <AcharyasCards />
                 <TrikaMandala/>
-                <SectionSeparator/>
                 <Footer/>
             </div>
 }

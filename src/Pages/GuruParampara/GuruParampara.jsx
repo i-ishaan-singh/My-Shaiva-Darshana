@@ -1,10 +1,14 @@
+import { RelavantLinks } from "../../Components/RelavantLinks/RelavantLinks"
 import { SectionHeader } from "../../Components/SectionHeader/SectionHeader"
 import { SectionSeparator } from "../../Components/SectionSeparator/SectionSeparator"
 import { NavigationLink } from "../../Utils/NavigationLink/NavigationLink"
+import { useTitle } from "../../Utils/useTitle/useTitle"
 import { Footer } from "../Footer/Footer"
 
 
 const GuruParampara = function(){
+    
+    useTitle('Guru Parampara');
 
     return (<div>
                 <SectionHeader name="Guru Parampara"/>
@@ -710,10 +714,26 @@ const GuruParampara = function(){
 
                 
                 <SectionSeparator/>
+                <RelavantLinks
+                    data={relavantData}
+                />
+                
                 <Footer/>
             </div>)
 
 }
+
+
+var relavantData = [
+    {
+        url: '/My-Shaiva-Darshana/history',
+        text: 'Explore History of Shaivaism'
+    },
+    {
+        url: '/My-Shaiva-Darshana/referrences',
+        text: 'Referrences'
+    }
+]
 
 
 export {GuruParampara}

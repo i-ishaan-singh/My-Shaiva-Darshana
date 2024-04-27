@@ -1,9 +1,14 @@
 import { ImageTextSection } from "../../../Components/ImageTextSection/ImageTextSeection"
+import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks"
+import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator"
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText"
+import { useTitle } from "../../../Utils/useTitle/useTitle"
 
 
 
 const TrikaMandalaData = function(){
+
+    useTitle('Trika Mandala');
 
     return (<div role="section">
                 <ImageTextSection header={"Trika Mandala"} subHeader={"A Map to the Inner Self"} >
@@ -92,9 +97,24 @@ const TrikaMandalaData = function(){
                     </div>
                 </div> 
 
-
+                <SectionSeparator/>
+                <RelavantLinks
+                    data={relavantData}
+                />
             </div>)
 
 }
+
+
+var relavantData = [
+    {
+        url: '/My-Shaiva-Darshana/key-concepts-list',
+        text: 'Read More Key Concepts'
+    },
+    {
+        url: '/My-Shaiva-Darshana/referrences',
+        text: 'Referrences'
+    }
+]
 
 export default TrikaMandalaData

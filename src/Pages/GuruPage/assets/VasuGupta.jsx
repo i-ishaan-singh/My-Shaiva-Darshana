@@ -1,5 +1,7 @@
 import { ImageTextSection } from "../../../Components/ImageTextSection/ImageTextSeection"
 import { Quote } from "../../../Components/Quote/Quoter";
+import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
+import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
 import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
 import VasuGuptaImg from '../../../assets/images/vasugupta.png';
@@ -124,9 +126,35 @@ const VasuGupta = function(){
                     </div>
                     
                 </div>
-
+                <SectionSeparator/>
+                <RelavantLinks
+                    data={relavantData}
+                />
             </div>)
 
 }
+
+var relavantData = [
+    {
+        url: '/My-Shaiva-Darshana/personalities-list',
+        text: 'Know more related Personalities'
+    },
+    {
+        url: '/My-Shaiva-Darshana/guru-parampara',
+        text: 'Explore Guru Parampara'
+    },
+    {
+        url: '/My-Shaiva-Darshana/literature/books?name=spandakarika',
+        text: 'Read SpandaKarika'
+    },
+    {
+        url: '/My-Shaiva-Darshana/literature/books?name=shivsutra',
+        text: 'Read Shiv Sutra'
+    },
+    {
+        url: '/My-Shaiva-Darshana/referrences',
+        text: 'Referrences'
+    }
+]
 
 export default VasuGupta

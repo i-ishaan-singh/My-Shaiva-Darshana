@@ -20,6 +20,7 @@
   font-weight: 400;
   font-style: normal;
   font-optical-sizing: auto;
+  color: #121212;
 }
 
 *{
@@ -621,3 +622,4 @@ a:active {
   box-shadow: 1px 1px 3px #000000ab;
   transition: 0.2s;
 }
+

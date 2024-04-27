@@ -1,16 +1,15 @@
 .shiv-footer {
-    height: 10rem;
+    min-height: 10rem;
     background: #121212;
+    color: #fafafa;
+    padding: 1rem;
+    position: relative;
+    z-index: 5;
 }
 
 .footer-wrapper {
     position: relative;
     padding-top: 43px;
-}
-
-.shiv-footer {
-    position: relative;
-    z-index: 5;
 }
 
 /******** Waves Style ***************/
@@ -95,5 +94,65 @@
     }
     100% {
         transform: translate(120%, 0%);
+    }
+}
+
+
+.footer-separator {
+    justify-content: center;
+}
+
+.footer-icon-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-right: 2px solid #fafafa;
+    flex-shrink: 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+
+.footer-copyright {
+    text-align: center;
+}
+
+
+
+a.footer-link:link, a.footer-link:visited {
+    color: #fafafa;
+    text-decoration: auto;
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.footer-links-container {
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-around;
+    gap: 1rem;
+    min-height: 8rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+@media screen and (max-width: 590px) {
+    .shiv-footer > div {
+        flex-direction: column;
+    }
+        
+    .footer-icon-container {
+        border-right: none;
+        border-bottom: 2px solid #fafafa;
     }
 }

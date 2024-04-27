@@ -2,7 +2,6 @@ import React, { Suspense } from "react";
 import { LoadingSection } from "../../Components/LoadingIcon/LoadingSection";
 import { SectionHeader } from "../../Components/SectionHeader/SectionHeader";
 import { Footer } from "../Footer/Footer";
-import { SectionSeparator } from "../../Components/SectionSeparator/SectionSeparator";
 import { useQueryParms } from "../../Utils/Query/useQueryParams";
 const TrikaMandalaData = React.lazy(() => import('./assets/TrikaMandalaData')); 
 const PrataybhijnaData = React.lazy(() => import('./assets/PratyabhijnaDarshana')); 
@@ -13,7 +12,6 @@ const map ={
  }
 
 const KeyConcepts = function(){
-
     
     const {name} = useQueryParms();
 
@@ -34,7 +32,7 @@ const KeyConcepts = function(){
                     <Suspense fallback={<LoadingSection message="Concept" />}>
                         <Renderer/>
                     </Suspense>
-                    <SectionSeparator/>
+                   
                 <Footer />
             </div>)
 }

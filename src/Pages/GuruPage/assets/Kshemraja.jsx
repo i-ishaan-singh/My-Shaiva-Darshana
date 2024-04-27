@@ -1,5 +1,7 @@
 import { ImageTextSection } from "../../../Components/ImageTextSection/ImageTextSeection"
 import { Quote } from "../../../Components/Quote/Quoter";
+import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
+import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
 import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
 import kshemraja from '../../../assets/images/kshemraja.webp';
@@ -182,9 +184,31 @@ const Kshemaraja = function(){
                     </SubSectionText>
                     
                 </div>
-
+                <SectionSeparator/>
+                <RelavantLinks
+                    data={relavantData}
+                />
             </div>)
 
 }
+
+var relavantData = [
+    {
+        url: '/My-Shaiva-Darshana/personalities-list',
+        text: 'Know more related Personalities'
+    },
+    {
+        url: '/My-Shaiva-Darshana/guru-parampara',
+        text: 'Explore Guru Parampara'
+    },
+    {
+        url: '/My-Shaiva-Darshana/literature/books?name=shattrimshattattva',
+        text: 'Read Shattrimshat Tattvasandoha'
+    },
+    {
+        url: '/My-Shaiva-Darshana/referrences',
+        text: 'Referrences'
+    }
+]
 
 export default Kshemaraja

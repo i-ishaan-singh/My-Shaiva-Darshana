@@ -9,6 +9,9 @@ import { useQueryParms } from "../Utils/Query/useQueryParams";
 import React from "react";
 import { useNavigate } from 'react-router-dom'
 import { HistoryKashmir } from "./History/History";
+import { Lost } from "./Lost/Lost";
+import { PersonalitiesList } from "./PersonalitiesList/PersonalitiesList";
+import { Concepts } from "./KeyConcepts/Concepts";
 
 const MainRouter = function(){
 
@@ -50,6 +53,18 @@ const MainRouter = function(){
                 <Route 
                     path="/My-Shaiva-Darshana/history" 
                     element={<HistoryKashmir />}
+                /> 
+                <Route 
+                    path="/My-Shaiva-Darshana/personalities-list" 
+                    element={<PersonalitiesList />}
+                /> 
+                <Route 
+                    path="/My-Shaiva-Darshana/key-concepts-list" 
+                    element={<Concepts />}
+                /> 
+                <Route 
+                    path="/My-Shaiva-Darshana/*" 
+                    element={<Lost />}
                 /> 
             </Routes>);
 

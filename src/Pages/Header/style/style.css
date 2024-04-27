@@ -9,6 +9,7 @@
     left: 0.5rem;
     border-radius: 0.2rem;
     transition: 0.3s box-shadow;
+    align-items: center;
 }
 
 
@@ -25,4 +26,38 @@
 img.main-header-logo {
     height: 2rem;
     cursor: pointer;
+}
+
+a.header-link, a.header-link:visited {
+    text-decoration: auto;
+    color: #0a0a0a;
+    font-weight: 600;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.4rem;
+    border: 0.08rem solid transparent;
+    transition: 0.2s;
+}
+
+.header-links-wrapper.full-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    margin-top: -0.3rem;
+}
+
+a.header-link:hover {
+    color: #3f1e04;
+    text-decoration: underline;
+}
+
+a.header-link.typo-accent.active {
+    text-decoration: underline;
+    border: 0.08rem solid #9d4605;
+}
+
+@media screen and (max-width:800px) {
+    a.header-link{
+        display: none;
+    }
 }

@@ -26,7 +26,7 @@ const text = {
         "isPDF": true
     },
     "Netra Tantram": {
-        "description": " This scripture is part of the core teachings of Kashmir Shaivism. It has been commented upon by Abhinavagupta's disciple, Kṣemarāja."
+        "description": " This scripture is part of the core teachings of Kashmir Shaivism. It has been commented upon by Abhinavagupta's disciple, Ksemarāja."
     },
     "Mālinī Vijaya Tantram": {
         "description": " Another significant text that explores the intricacies of this mystical tradition."
@@ -60,22 +60,22 @@ const text = {
         "description": " Reveals the spontaneous and self-revealing nature of consciousness."
     },
     "Parātrīśikā Vivarana": {
-        "description": " A commentary by Abhinavagupta on the Parātrīśikā verses, which are part of the Rudraṣṭādhyāyī section of the Rudra Yamala Tantra. These verses reveal the essence of non-dualism."
+        "description": " A commentary by Abhinavagupta on the Parātrīśikā verses, which are part of the Rudrasṭādhyāyī section of the Rudra Yamala Tantra. These verses reveal the essence of non-dualism."
     },
     "Prakāśa Stava": {
         "description": " A hymn expressing devotion to the Supreme Light that pervades all existence."
     },
     "Vimarśinī": {
-        "description": " A commentary by Kṣemarāja on the Spanda Kārikās, providing profound insights into the nature of reality."
+        "description": " A commentary by Ksemarāja on the Spanda Kārikās, providing profound insights into the nature of reality."
     },
     "Stavacintāmani": {
         "description": " A collection of hymns by Bhaṭṭa Kallata, celebrating the divine play (līlā) of Śiva."
     },
     "Vijñāna Bhairava Vimarśinī": {
-        "description": " A commentary by Kṣemarāja on the Vijñāna Bhairava Tantra. It provides detailed explanations and practical insights into the 112 meditation techniques."
+        "description": " A commentary by Ksemarāja on the Vijñāna Bhairava Tantra. It provides detailed explanations and practical insights into the 112 meditation techniques."
     },
     "Pratyabhijñā Vimarśinī": {
-        "description": " Another commentary by Kṣemarāja, this time on the Pratyabhijñā Sūtras. It unravels the profound teachings on self-recognition and divine play."
+        "description": " Another commentary by Ksemarāja, this time on the Pratyabhijñā Sūtras. It unravels the profound teachings on self-recognition and divine play."
     },
     "Spanda Sandoha": {
         "description": " A work by Kallata Bhaṭṭa, exploring the pulsation of consciousness (spanda) and its connection to the ultimate reality."
@@ -87,25 +87,25 @@ const text = {
         "description": " A treatise by Abhinavagupta, revealing the path of direct entry into the supreme reality. It guides the aspirant beyond ordinary perception."
     },
     "Pratyabhijñā Hṛdaya Vimarśinī": {
-        "description": " Yet another commentary by Kṣemarāja, this time on the Pratyabhijñā Hṛdayam. It sheds light on the heart of recognition (pratyabhijñā)."
+        "description": " Yet another commentary by Ksemarāja, this time on the Pratyabhijñā Hṛdayam. It sheds light on the heart of recognition (pratyabhijñā)."
     },
     "Mālinī Vijayottara Vimarśinī": {
-        "description": " A companion commentary by Kṣemarāja on the Mālinī Vijayottara Tantram. It delves into the subtleties of the goddess's victorious energy."
+        "description": " A companion commentary by Ksemarāja on the Mālinī Vijayottara Tantram. It delves into the subtleties of the goddess's victorious energy."
     },
     "Svacchanda Bhairava Stotra": {
         "description": " A hymn composed by Abhinavagupta, celebrating the fierce and liberating aspect of Bhairava."
     },
     "Pratyabhijñā Vimarśinī Vyākhyā": {
-        "description": " Yet another commentary by Kṣemarāja on the Pratyabhijñā Sūtras. It deepens our understanding of self-recognition and divine play."
+        "description": " Yet another commentary by Ksemarāja on the Pratyabhijñā Sūtras. It deepens our understanding of self-recognition and divine play."
     },
     "Stavacintāmani Vyākhyā": {
-        "description": " A comprehensive commentary by Kṣemarāja on the Stavacintāmani, revealing the layers of meaning in the hymns dedicated to the divine."
+        "description": " A comprehensive commentary by Ksemarāja on the Stavacintāmani, revealing the layers of meaning in the hymns dedicated to the divine."
     },
     "Vijñāna Bhairava Tātparya Nirnaya": {
         "description": " A profound treatise by the sage Abhinavagupta, unraveling the inner meanings (tātparya) of the Vijñāna Bhairava Tantra. It guides the seeker toward direct experiential knowledge."
     },
     "Pratyabhijñā Vimarśinī Prakāśa": {
-        "description": " Another commentary by Kṣemarāja, this time on the Pratyabhijñā Sūtras. It sheds light on the luminous nature of self-recognition."
+        "description": " Another commentary by Ksemarāja, this time on the Pratyabhijñā Sūtras. It sheds light on the luminous nature of self-recognition."
     },
     "Spanda Sandoha Vyākhyā": {
         "description": " A detailed exposition by Kallata Bhaṭṭa on the Spanda Sandoha. It explores the dynamic interplay of consciousness and energy."
@@ -114,22 +114,22 @@ const text = {
         "description": " An illuminating commentary by Utpaladeva on the Svātantryasūtram. It reveals the essence of absolute freedom and self-empowerment."
     },
     "Parāpraveśikā Vyākhyā": {
-        "description": " A companion commentary by Kṣemarāja on the Parāpraveśikā. It provides practical insights into the direct entry into the supreme reality."
+        "description": " A companion commentary by Ksemarāja on the Parāpraveśikā. It provides practical insights into the direct entry into the supreme reality."
     },
     "Pratyabhijñā Hṛdaya Vimarśinī Vyākhyā": {
-        "description": " Continuing his commentary tradition, Kṣemarāja enriches our understanding of the Pratyabhijñā Hṛdayam."
+        "description": " Continuing his commentary tradition, Ksemarāja enriches our understanding of the Pratyabhijñā Hṛdayam."
     },
     "Mālinī Vijayottara Vimarśinī Vyākhyā": {
-        "description": " An in-depth commentary by Kṣemarāja on the Mālinī Vijayottara Tantram. It unveils the goddess's victorious energy and its significance."
+        "description": " An in-depth commentary by Ksemarāja on the Mālinī Vijayottara Tantram. It unveils the goddess's victorious energy and its significance."
     },
     "Svacchanda Bhairava Stotra Vyākhyā": {
-        "description": " A detailed explanation by Kṣemarāja of Abhinavagupta's hymn, celebrating the fierce and liberating aspect of Bhairava."
+        "description": " A detailed explanation by Ksemarāja of Abhinavagupta's hymn, celebrating the fierce and liberating aspect of Bhairava."
     },
     "Vijñāna Bhairava Tātparya Nirnaya Vyākhyā": {
         "description": " A profound treatise by the sage Abhinavagupta, unraveling the inner meanings (tātparya) of the Vijñāna Bhairava Tantra. It guides the seeker toward direct experiential knowledge."
     },
     "Pratyabhijñā Vimarśinī Prakāśa Vyākhyā": {
-        "description": " Another commentary by Kṣemarāja, this time on the Pratyabhijñā Sūtras. It sheds light on the luminous nature of self-recognition."
+        "description": " Another commentary by Ksemarāja, this time on the Pratyabhijñā Sūtras. It sheds light on the luminous nature of self-recognition."
     },
     "Chanda Bhairava Tantra": {
         "description": " This tantra delves into the fierce and transformative aspect of Bhairava. It explores practices related to mantra, ritual, and inner alchemy."
@@ -139,12 +139,12 @@ const text = {
     },
     "Unmatta Bhairava Tantra": {
         "description": " Unmatta means “intoxicated” or “ecstatic.” This tantra explores the ecstatic states of consciousness and how they can lead to direct realization."
+    },  
+    "Asitānga Bhairava Tantra": {
+        "description": " Asitānga refers to the “dark-limbed” or “blue-throated” form of Bhairava. This tantra emphasizes practices related to the throat center and the power of speech."
     },
-    "Asitāṅga Bhairava Tantra": {
-        "description": " Asitāṅga refers to the “dark-limbed” or “blue-throated” form of Bhairava. This tantra emphasizes practices related to the throat center and the power of speech."
-    },
-    "Mahocchuṣma Bhairava Tantra": {
-        "description": " Mahocchuṣma signifies the “great blazing” or “supreme fire.” This tantra focuses on the transformative power of inner fire (kundalini) and its awakening."
+    "Mahocchusma Bhairava Tantra": {
+        "description": " Mahocchusma signifies the “great blazing” or “supreme fire.” This tantra focuses on the transformative power of inner fire (kundalini) and its awakening."
     },
     "Kapālīśa Bhairava Tantra": {
         "description": " Kapālīśa represents the Lord of the Skull, symbolizing detachment from the material world. This tantra explores practices related to skull meditation and liberation."
@@ -170,8 +170,8 @@ const text = {
     "Vijaya Bhairava Tantra": {
         "description": " Vijaya means “victorious.” This tantra reveals practices for overcoming inner obstacles and achieving victory over ignorance."
     },
-    "Dakṣina Bhairava Tantra": {
-        "description": " Dakṣina signifies the “right” or “southern” path. This tantra explores the path of grace, devotion, and surrender to Bhairava."
+    "Daksina Bhairava Tantra": {
+        "description": " Daksina signifies the “right” or “southern” path. This tantra explores the path of grace, devotion, and surrender to Bhairava."
     },
     "Ugra Bhairava Tantra": {
         "description": " Ugra means “fierce” or “terrifying.” This tantra delves into the transformative power of Bhairava's fierce aspect and how it leads to liberation."
@@ -180,7 +180,7 @@ const text = {
         "description": " The main body of the text, containing over 3,000 shlokas (metrical verses). It highlights the rituals, practices, and philosophy associated with Svacchanda Bhairava."
     },
     "Svacchandodyota": {
-        "description": " A commentary on the Svacchandatantram by the great scholar Kṣemarāja. This commentary provides deeper insights into the teachings and practices."
+        "description": " A commentary on the Svacchandatantram by the great scholar Ksemarāja. This commentary provides deeper insights into the teachings and practices."
     },
     "Svacchandatantra Vyākhyā": {
         "description": " Another commentary by Abhinavagupta, further elucidating the esoteric aspects of the Svacchanda Tantra."
@@ -193,6 +193,8 @@ const text = {
     },
     "Rudra Yamala Tantra": {
         "description": " This tantra is divided into 66 chapters (patala) of varying lengths. It covers a wide range of mystical and magical subjects. The Rudra Yamala Tantra is considered significant in both Hindu tantric lineage and Tibetan Vajrayana Buddhism."
+    },
+    "And More...": {
     }
 }
 

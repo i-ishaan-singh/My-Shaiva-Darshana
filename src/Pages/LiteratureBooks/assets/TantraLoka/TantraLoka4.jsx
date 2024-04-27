@@ -1,9 +1,13 @@
 import { PDFBookRenderer } from '../../../../Components/PDFBookRenderer/PDFBookRenderer';
 import { SectionSeparator } from '../../../../Components/SectionSeparator/SectionSeparator';
+import { useTitle } from '../../../../Utils/useTitle/useTitle';
 import { TantraLokaVolumes } from './TantraLokaVolumes';
+import { TCF } from './TantralokaCommonFooter';
 import PDF from './assets/Sri Tantraloka 4.pdf';
 
 const TantraLoka4 = function(){
+
+    useTitle('तन्त्रालोक - Tantraloka Vol 4');
 
     return <div>
                 <PDFBookRenderer 
@@ -14,6 +18,7 @@ const TantraLoka4 = function(){
                 />
                 <TantraLokaVolumes active={3} />
                 <SectionSeparator/>
+                <TCF/>
             </div>
 
 }

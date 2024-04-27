@@ -1,9 +1,35 @@
 import { BookRenderer } from "../../../Components/BookRenderer/BookRenderer";
+import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
+import { useTitle } from "../../../Utils/useTitle/useTitle";
 
 
 const Book = function(){
-    return <BookRenderer {...bookData} />
+
+    useTitle('षट्त्रिंशत्तत्त्वसंदोहः - ShatTrimshat Tattva Sandoha');
+
+    return <div>
+                <BookRenderer {...bookData} />
+                <RelavantLinks
+                    data={relavantData}
+                />
+            </div>
 }
+
+var relavantData = [
+    {
+        url: '/My-Shaiva-Darshana/literature-list',
+        text: 'Know more Literature'
+    },
+    {
+        url: '/My-Shaiva-Darshana/personalities?name=acharya-kshemaraja',
+        text: 'Explore about Acharaya Kashemaraja'
+    },
+    {
+        url: '/My-Shaiva-Darshana/referrences',
+        text: 'Referrences'
+    }
+]
+
 
 const bookData = {
     titleSanskrit: 'षट्त्रिंशत्तत्त्वसंदोहः',

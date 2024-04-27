@@ -3,7 +3,7 @@ import { LeftNavigation } from '../LeftNavigation/LeftNavigation';
 
 const ContentList = function(props){
 
-    const {data} = props;
+    const {data, linkMessage=" Explore Literature"} = props;
 
     var _list =  React.useMemo(function(){
         
@@ -20,7 +20,7 @@ const ContentList = function(props){
                         </div>
                         <LeftNavigation url={_item.url} >
                             <i className="fa fa-link" aria-hidden="true"></i>
-                            {' Explore Literature'}
+                            {linkMessage}
                             {!!_item.isPDF && <span> [PDF]</span>} 
                         </LeftNavigation>
                     </div>)

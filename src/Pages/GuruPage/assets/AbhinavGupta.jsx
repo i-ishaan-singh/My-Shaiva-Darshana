@@ -1,6 +1,9 @@
 import { ImageTextSection } from "../../../Components/ImageTextSection/ImageTextSeection"
 import { Quote } from "../../../Components/Quote/Quoter";
+import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
+import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
+import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
 import AbhinavguptaImg from '../../../assets/images/abhinavgupta.jpg';
 
 
@@ -150,8 +153,12 @@ const AbhinavGupta = function(){
 
                     <SubSectionText header="Tantraloka">
                         {`Tantraloka is a comprehensive treatise on Shaiva tantra, covering a vast range of topics from theoretical foundations to practical applications. It is considered one of the most important and influential works of Shaiva tantric literature.
-                        The Tantraloka has approximately 2,500 verses,`}
-
+                        The Tantraloka has approximately 2,500 verses.
+                        
+                        `}
+                        <div>
+                            <NavigationLink to="/My-Shaiva-Darshana/literature/books?name=tantraloka-vol1"><i className="fa fa-link" aria-hidden="true"></i>Explore Literature</NavigationLink>
+                        </div>
                     </SubSectionText>
 
 
@@ -205,9 +212,32 @@ const AbhinavGupta = function(){
                     </SubSectionText>
                     
                 </div>
-
+                <SectionSeparator/>
+                <RelavantLinks
+                    data={relavantData}
+                />
             </div>)
 
 }
+
+
+var relavantData = [
+    {
+        url: '/My-Shaiva-Darshana/personalities-list',
+        text: 'Know more related Personalities'
+    },
+    {
+        url: '/My-Shaiva-Darshana/guru-parampara',
+        text: 'Explore Guru Parampara'
+    },
+    {
+        url: '/My-Shaiva-Darshana/literature/books?name=tantraloka-vol1',
+        text: 'Read Tantraloka'
+    },
+    {
+        url: '/My-Shaiva-Darshana/referrences',
+        text: 'Referrences'
+    }
+]
 
 export default AbhinavGupta

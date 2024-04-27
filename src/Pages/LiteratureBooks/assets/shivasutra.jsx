@@ -1,9 +1,36 @@
 import { BookRenderer } from "../../../Components/BookRenderer/BookRenderer";
+import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
+import { useTitle } from "../../../Utils/useTitle/useTitle";
 
 
 const Book = function(){
-    return <BookRenderer {...bookData} />
+
+
+    useTitle('श्री शिवसूत्र - Shiva Sutra');
+
+    return  <div>
+                <BookRenderer {...bookData} />
+                <RelavantLinks
+                    data={relavantData}
+                />
+            </div>
 }
+
+
+var relavantData = [
+    {
+        url: '/My-Shaiva-Darshana/literature-list',
+        text: 'Know more Literature'
+    },
+    {
+        url: '/My-Shaiva-Darshana/personalities?name=vasugupta',
+        text: 'Explore about Vasugupta'
+    },
+    {
+        url: '/My-Shaiva-Darshana/referrences',
+        text: 'Referrences'
+    }
+]
 
 const bookData = {
     titleSanskrit: 'श्री शिवसूत्र',

@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import { SectionHeader } from "../../Components/SectionHeader/SectionHeader";
-import { SectionSeparator } from "../../Components/SectionSeparator/SectionSeparator";
 import { useQueryParms } from "../../Utils/Query/useQueryParams";
 import { Footer } from "../Footer/Footer";
 import { LoadingSection } from "../../Components/LoadingIcon/LoadingSection";
@@ -40,7 +39,6 @@ const GuruPage = function(){
                 <Suspense fallback={<LoadingSection message="Personality" />}>
                     <Renderer />
                 </Suspense>
-                <SectionSeparator/>
                 <Footer/>
             </div>)
 }
