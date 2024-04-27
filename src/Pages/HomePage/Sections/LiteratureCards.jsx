@@ -4,7 +4,7 @@ import { CardGroup } from "../../../Components/Card/CardGroup"
 import shivsutra from '../../../assets/images/Books/shivsutra.jpg';
 import sth from '../../../assets/images/Books/sth.png';
 import spandha from '../../../assets/images/Books/spandha.jpg';
-import laxman from '../../../assets/images/laxman.jpg';
+import bhairav from '../../../assets/images/Books/bhairava-stva.jpg';
 import { LeftNavigation } from "../../../Components/LeftNavigation/LeftNavigation";
 
 const LiteratureCards = function(){
@@ -34,14 +34,15 @@ const LiteratureCards = function(){
                         description="This term signifies both vibrationless vibration and divine pulsation. The verses explore the dynamic aspect of consciousness, emphasizing that the entire universe arises from this pulsating essence."
                     />
                     <Card 
-                        imageSrc={laxman}
-                        header="Lakshmana joo"
-                        description="A 20th-century sage who played a pivotal role in reviving Kashmir Shaivism. His teachings and practices inspired a new generation of practitioners."
+                        imageSrc={bhairav}
+                        header="Bhairav Stavah"
+                        redirectPath="/My-Shaiva-Darshana/literature/books?name=bhairava-stavah"
+                        description="Written by Abhinavagupta, it offers a unique perspective. The devotee rejoices in the realization that Shiva is everywhere and everything, dissolving fear of death and rebirth."
                     />
 
                 </CardGroup>
                 <div className="header-gap-top">
-                    <LeftNavigation className="link-button" url="/My-Shaiva-Darshana/literature-list">Explore All Literature</LeftNavigation>
+                    <LeftNavigation className="link-button" url="/My-Shaiva-Darshana/literature-list">Explore More Literature</LeftNavigation>
                 </div>
             </div>)
 }

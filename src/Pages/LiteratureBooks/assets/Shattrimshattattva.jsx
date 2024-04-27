@@ -7,7 +7,7 @@ const Book = function(){
 
 const bookData = {
     titleSanskrit: 'षट्त्रिंशत्तत्त्वसंदोहः',
-    author: 'Rajanaka Ananda',
+    author: 'Acharaya Kashemaraja',
     chapters: [
         {
             nameSanskrit: '',

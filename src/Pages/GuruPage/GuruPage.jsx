@@ -9,12 +9,14 @@ const LakshmanJoo = React.lazy(() => import("./assets/LakshmanJoo"));
 const Utpaladeva = React.lazy(() => import("./assets/Utpaladeva")); 
 const VasuGupta = React.lazy(() => import("./assets/VasuGupta")); 
 const AbhinavGupta = React.lazy(() => import("./assets/AbhinavGupta")); 
+const Kshemaraja = React.lazy(() => import("./assets/Kshemraja")); 
 
 const map ={
     vasugupta: VasuGupta,
     abhinavgupta: AbhinavGupta,
     utpaladeva: Utpaladeva,
-    lakshmanjoo: LakshmanJoo
+    lakshmanjoo: LakshmanJoo,
+    ['acharya-kshemaraja']: Kshemaraja
  }
 
 const GuruPage = function(){

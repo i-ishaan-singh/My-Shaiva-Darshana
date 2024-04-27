@@ -3,9 +3,6 @@ import { Footer } from '../Footer/Footer';
 import React, { Suspense } from 'react';
 import { useQueryParms } from '../../Utils/Query/useQueryParams';
 import { LoadingSection } from '../../Components/LoadingIcon/LoadingSection';
-import {  } from './assets/TantraLoka/TantraLokaVolumes';
-
-
 
 const ShivSutra = React.lazy(() => import('./assets/shivasutra')); 
 const ShattrimshatTattva = React.lazy(() => import('./assets/Shattrimshattattva')); 
@@ -19,8 +16,7 @@ const TantraLoka5 = React.lazy(() => import('./assets/TantraLoka/TantraLoka5'));
 const TantraLoka6 = React.lazy(() => import('./assets/TantraLoka/TantraLoka6')); 
 const TantraLoka7 = React.lazy(() => import('./assets/TantraLoka/TantraLoka7')); 
 const TantraLoka8 = React.lazy(() => import('./assets/TantraLoka/TantraLoka8')); 
-
-
+const BhairavaStavah = React.lazy(() => import('./assets/BhairavaStavah')); 
 
 const map ={
     shivsutra: ShivSutra,
@@ -34,7 +30,8 @@ const map ={
     'tantraloka-vol5': TantraLoka5,
     'tantraloka-vol6': TantraLoka6,
     'tantraloka-vol7': TantraLoka7,
-    'tantraloka-vol8': TantraLoka8
+    'tantraloka-vol8': TantraLoka8,
+    'bhairava-stavah': BhairavaStavah,
  }
 
 const BooksPage = function(){

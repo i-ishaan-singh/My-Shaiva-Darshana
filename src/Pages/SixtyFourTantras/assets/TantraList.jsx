@@ -36,6 +36,11 @@ const text = {
         "url": '/My-Shaiva-Darshana/literature/books?name=malinivijayottaratanra',
         "isPDF": true
     },
+    
+    "Bhairava Stava": {
+        "description": "The Bhairava Stava is a devotional hymn praising Shiva in his fierce Bhairava form.  Written by Abhinavagupta, it offers a unique perspective. The devotee rejoices in the realization that Shiva is everywhere and everything, dissolving fear of death and rebirth. Through devotion and self-recognition as Shiva, the devotee finds inner peace and bliss.",
+        "url": '/My-Shaiva-Darshana/literature/books?name=bhairava-stavah',
+    },
     "Guhyakālikā Chapter of the Mahākāla Samhitā": {
         "description": " Although not exclusively a Kashmir Shaivism scripture, it has influenced this tradition significantly."
     },

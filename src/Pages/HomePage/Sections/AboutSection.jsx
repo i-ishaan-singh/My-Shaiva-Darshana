@@ -1,3 +1,4 @@
+import { LeftNavigation } from "../../../Components/LeftNavigation/LeftNavigation";
 import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
 
 const AboutShaivaism = function(){
@@ -17,6 +18,9 @@ const AboutShaivaism = function(){
                     The term "Trika" denotes "the threefold science of man and the world." Within the concept of Trika, three energies, parā (supreme), parāparā (medium), and aparā (lowest), are recognized. In Trika philosophy, it is acknowledged that the entire universe and every activity within it, be it spiritual, physical, or worldly, exist within these three energies. 
                     
                     The discovery of Śiva sutras by Vasugupta marked the beginning of this Trika system, in formal aspect.`}
+                </div>
+                <div className="header-gap-top">
+                    <LeftNavigation className="link-button" url="/My-Shaiva-Darshana/history">History Of Shaivaism</LeftNavigation>
                 </div>
             </div>)
 }

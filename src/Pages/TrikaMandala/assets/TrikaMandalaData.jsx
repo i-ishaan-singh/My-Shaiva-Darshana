@@ -6,7 +6,7 @@ import { SubSectionText } from "../../../Components/SubSectionText/SubSectionTex
 const TrikaMandalaData = function(){
 
     return (<div role="section">
-                <ImageTextSection  header={"A Map to the Inner Self"} >
+                <ImageTextSection header={"Trika Mandala"} subHeader={"A Map to the Inner Self"} >
                 The Trika Mandala is a powerful visualization practice used in Kashmir Shaivism. This meditative technique utilizes a series of concentric circles, each representing different aspects of reality and the Self. By contemplating the Trika Mandala, practitioners embark on a journey of self-discovery, recognizing their true nature as Shiva, the ultimate reality.
                 </ImageTextSection>
 

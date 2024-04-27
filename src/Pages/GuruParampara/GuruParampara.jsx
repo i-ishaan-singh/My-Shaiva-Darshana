@@ -610,10 +610,11 @@ const GuruParampara = function(){
 
                         <div className="point shiv-h6 ">
                             <span className="typo-accent ">
-                            KashemaRaja
+                            Acharya Kshemaraja
                             </span>
                         </div>
                         <div className="padd-text pad-b-3x">
+                            <NavigationLink to="/My-Shaiva-Darshana/personalities?name=acharya-kshemaraja"><i className="fa fa-link" aria-hidden="true"></i>Explore More</NavigationLink>
                         </div>
                         
                         <div className="point shiv-h6 ">

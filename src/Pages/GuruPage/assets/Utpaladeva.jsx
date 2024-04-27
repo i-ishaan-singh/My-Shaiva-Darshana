@@ -102,7 +102,12 @@ const Utpaladeva = function(){
 
                 </div>
 
-                
+                <div className="shiv-section section-gap">
+                    <Quote
+                        quote={'Where even suffering is transformed into joy, where even poison becomes nectar, where the world itself is a way of liberation, there is the way of Shiva!'}
+                        author={'Utpaladeva'}
+                    />
+                </div>
 
                 <div className="shiv-section section-gap">
                     <div className="shiv-h3 typo-accent color-accent">

@@ -4,10 +4,11 @@ import { BooksPage } from "./LiteratureBooks/Books";
 import { SFTantraList } from "./SixtyFourTantras/SFTantras";
 import { GuruPage } from "./GuruPage/GuruPage";
 import { GuruParampara } from "./GuruParampara/GuruParampara";
-import { TrikaMandala } from "./TrikaMandala/TrikaMandala";
+import { KeyConcepts } from "./TrikaMandala/KeyConcepts";
 import { useQueryParms } from "../Utils/Query/useQueryParams";
 import React from "react";
 import { useNavigate } from 'react-router-dom'
+import { HistoryKashmir } from "./History/History";
 
 const MainRouter = function(){
 
@@ -43,8 +44,12 @@ const MainRouter = function(){
                     element={<GuruParampara />}
                 /> 
                 <Route 
-                    path="/My-Shaiva-Darshana/meditations/trika-mandala" 
-                    element={<TrikaMandala />}
+                    path="/My-Shaiva-Darshana/key-concepts" 
+                    element={<KeyConcepts />}
+                /> 
+                <Route 
+                    path="/My-Shaiva-Darshana/history" 
+                    element={<HistoryKashmir />}
                 /> 
             </Routes>);
 
