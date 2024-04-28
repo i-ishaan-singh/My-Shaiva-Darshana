@@ -22,12 +22,14 @@ const Footer = function(){
                         </div>
                         <div className="flex-row full-flex">
                             <div className="footer-links-container">
-                                <NavigationLink to="/My-Shaiva-Darshana/literature/books?name=shivsutra" className="footer-link">Literature</NavigationLink>
-                                <NavigationLink to="/My-Shaiva-Darshana/literature/books?name=shivsutra" className="footer-link">Personalities</NavigationLink>
-                                <NavigationLink to="/My-Shaiva-Darshana/literature/books?name=shivsutra" className="footer-link">Core Concepts</NavigationLink>
-                                <NavigationLink to="/My-Shaiva-Darshana/literature/books?name=shivsutra" className="footer-link">History</NavigationLink>
-                                <NavigationLink to="/My-Shaiva-Darshana/literature/books?name=shivsutra" className="footer-link">Guru Parampara</NavigationLink>
-                                <NavigationLink to="/My-Shaiva-Darshana/literature/books?name=shivsutra" className="footer-link">Pilgrimages</NavigationLink>
+                                <NavigationLink to="/My-Shaiva-Darshana/literature-list" className="footer-link">Literature</NavigationLink>
+                                <NavigationLink to="/My-Shaiva-Darshana/personalities-list" className="footer-link">Personalities</NavigationLink>
+                                <NavigationLink to="/My-Shaiva-Darshana/key-concepts-list" className="footer-link">Core Concepts</NavigationLink>
+                                <NavigationLink to="/My-Shaiva-Darshana/history" className="footer-link">History</NavigationLink>
+                                <NavigationLink to="/My-Shaiva-Darshana/guru-parampara" className="footer-link">Guru Parampara</NavigationLink>
+                                <NavigationLink to="/My-Shaiva-Darshana/pilgrimages-list" className="footer-link">Pilgrimages</NavigationLink>
+                                <NavigationLink to="/My-Shaiva-Darshana/contact-us" className="footer-link">Contact Us</NavigationLink>
+                                <NavigationLink to="/My-Shaiva-Darshana/referrences" className="footer-link">Referrences</NavigationLink>
                             </div>
                             <div className="footer-copyright">
                                 Created and Maintained by <span className="typo-accent">Ishaan Singh</span>

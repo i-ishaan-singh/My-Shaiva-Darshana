@@ -1,3 +1,4 @@
+import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink"
 
 const LandingPageMesage = function(){
 
@@ -21,9 +22,8 @@ const LandingPageMesage = function(){
                     </div>
                 </div>
                 <div className="landing-page-button-wrapper">
-                    <div className="button main-button">
-                        Explore More
-                    </div>
+                    <NavigationLink to="/My-Shaiva-Darshana/explore" className="button main-button">Explore More</NavigationLink>
+                    
                 </div>
             </div>)
 }

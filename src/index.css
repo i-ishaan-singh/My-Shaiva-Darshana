@@ -21,6 +21,7 @@
   font-style: normal;
   font-optical-sizing: auto;
   color: #121212;
+  -webkit-tap-highlight-color: #c457067d;
 }
 
 *{
@@ -246,6 +247,9 @@
 }
 /*********** Components *************/
 
+a.button,
+a.button:visited,
+a.button:link,
 .button {
   display: inline-flex;
   background: white;
@@ -259,20 +263,43 @@
   position: relative;
   top: -1px;
   left: -1px;
+  text-align: center;
   cursor: pointer;
   user-select: none;
 }
 
-.button:hover {
+a.button{
+  text-decoration: none;
+}
+
+a.button:visited:hover,
+a.button:link:hover,
+a.button:hover, .button:hover {
   color: #c45706;
   box-shadow: 2px 2px 3px 0px #0a0a0a8c, 0px 0px 4px 0px #0a0a0a inset;
 }
 
-.button:active {
+a.button:visited:active,
+a.button:link:active,
+a.button:active, .button:active {
   color: #c45706;
   box-shadow: 0px 0px 0px 0px #0a0a0a8c, 0px 0px 0px 0px #0a0a0a inset;
   top: 0;
   left: 0;
+}
+
+
+a.primary-button.button:visited,
+a.primary-button.button:link,
+.button.primary-button {
+  background: #c45706;
+  color: #fafafa;
+}
+
+a.primary-button.button:visited:hover,
+a.primary-button.button:link:hover,
+.button.primary-button:hover {
+  color: #e0bc0b;
 }
 
 /************** Scrollbar ***************/
