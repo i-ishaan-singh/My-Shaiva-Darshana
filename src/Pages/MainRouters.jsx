@@ -12,6 +12,7 @@ import { HistoryKashmir } from "./History/History";
 import { Lost } from "./Lost/Lost";
 import { PersonalitiesList } from "./PersonalitiesList/PersonalitiesList";
 import { Concepts } from "./KeyConcepts/Concepts";
+import { Pilgrimages } from "./Pilgrimages/Pilgrimages";
 
 const MainRouter = function(){
 
@@ -49,6 +50,10 @@ const MainRouter = function(){
                 <Route 
                     path="/My-Shaiva-Darshana/key-concepts" 
                     element={<KeyConcepts />}
+                /> 
+                <Route 
+                    path="/My-Shaiva-Darshana/pilgrimage" 
+                    element={<Pilgrimages />}
                 /> 
                 <Route 
                     path="/My-Shaiva-Darshana/history" 

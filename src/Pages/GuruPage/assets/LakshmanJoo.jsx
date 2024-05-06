@@ -3,10 +3,13 @@ import { Quote } from "../../../Components/Quote/Quoter";
 import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
 import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
+import { useTitle } from "../../../Utils/useTitle/useTitle";
 import laxmanImg from '../../../assets/images/laxman.jpg';
 
 
 const LakshmanJoo = function(){
+
+    useTitle('Swami Lakshmanjoo');
 
     return (<div role="section">
                 <ImageTextSection imgSrc={laxmanImg} header={"Swami Lakshmanjoo"} subHeader={"The Friend of God"}>

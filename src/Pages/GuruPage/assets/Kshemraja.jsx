@@ -4,10 +4,13 @@ import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
 import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
 import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
+import { useTitle } from "../../../Utils/useTitle/useTitle";
 import kshemraja from '../../../assets/images/kshemraja.webp';
 
 
 const Kshemaraja = function(){
+
+    useTitle('Acharya Kshemaraja');
 
     return (<div role="section">
                 <ImageTextSection imgSrc={kshemraja} header={"Acharya Kshemaraja"} subHeader={"The Weaver of Kashmiri Shaivism"}>

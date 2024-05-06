@@ -3,8 +3,13 @@ import { Quote } from "../../../Components/Quote/Quoter";
 import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
 import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
+import { useTitle } from "../../../Utils/useTitle/useTitle";
 
 const Utpaladeva = function(){
+
+    
+    useTitle('Utpaladeva');
+
 
     return (<div role="section">
                 <ImageTextSection header={"Utpaladeva"} subHeader={"The Architect of Recognition (Pratyabhijñā) Philosophy"}>

@@ -28,7 +28,8 @@ img.main-header-logo {
     cursor: pointer;
 }
 
-a.header-link, a.header-link:visited {
+
+a.header-link:link, a.header-link, a.header-link:visited {
     text-decoration: auto;
     color: #0a0a0a;
     font-weight: 600;

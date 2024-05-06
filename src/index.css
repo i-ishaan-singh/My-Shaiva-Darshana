@@ -598,8 +598,12 @@ a:active {
 .point {
   display: flex;
   gap: 0.5rem;
-  align-items: center;
+  align-items: flex-start;
   padding: 0.1rem 0.4rem;
+}
+
+.point-row{
+  flex-direction: column;
 }
 
 .point:before {
@@ -610,6 +614,7 @@ a:active {
   flex-shrink: 0;
   transform: rotate(45deg);
   border-radius: 0.1rem;
+  margin-top: 0.45rem;
 }
 
 /********* Input ***********/

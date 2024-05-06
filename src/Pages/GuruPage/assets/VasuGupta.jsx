@@ -4,10 +4,13 @@ import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
 import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
 import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
+import { useTitle } from "../../../Utils/useTitle/useTitle";
 import VasuGuptaImg from '../../../assets/images/vasugupta.png';
 
 
 const VasuGupta = function(){
+
+    useTitle('Vasugupta');
 
     return (<div role="section">
                 <ImageTextSection imgSrc={VasuGuptaImg} header={"Vasugupta"} subHeader={"The Illuminator of Kashmir Shaivism"}>

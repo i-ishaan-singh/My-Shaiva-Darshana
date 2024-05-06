@@ -4,10 +4,13 @@ import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
 import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
 import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
+import { useTitle } from "../../../Utils/useTitle/useTitle";
 import AbhinavguptaImg from '../../../assets/images/abhinavgupta.jpg';
 
 
 const AbhinavGupta = function(){
+
+    useTitle('Abhinavgupta');
 
     return (<div role="section">
                 <ImageTextSection imgSrc={AbhinavguptaImg} header={"Abhinavgupta"} subHeader={"The Supreme Devotee of Shiva"}>

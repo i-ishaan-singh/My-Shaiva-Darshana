@@ -11,6 +11,7 @@ import { Quote } from '../../Components/Quote/Quoter';
 import { TrikaMandala } from './Sections/TrikaMandala';
 import { GuruParampara } from './Sections/GuruParampara';
 import { Pratyabhijna } from './Sections/Pratyabhijna';
+import { PilgrimagesCards } from './Sections/PilgrimageCards';
 
 const HomePage = function(){
 
@@ -34,6 +35,7 @@ const HomePage = function(){
                 <GuruParampara/>
                 <AcharyasCards />
                 <TrikaMandala/>
+                <PilgrimagesCards/>
                 <Footer/>
             </div>
 }
