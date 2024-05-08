@@ -13,7 +13,7 @@ const LakshmanJoo = function(){
 
     return (<div role="section">
                 <ImageTextSection imgSrc={laxmanImg} header={"Swami Lakshmanjoo"} subHeader={"The Friend of God"}>
-                    {`Swami Lakshmanjoo (1907-1991) stands as a towering figure in the rich tapestry of Kashmir Shaivism. Often referred to as Lal Ded ("Friend of God") by his devotees, he was a revered scholar, practitioner, and the last living master in the unbroken lineage of this profound spiritual tradition.`}
+                    {`Swami Lakshmanjoo (1907-1991) stands as a towering figure in the rich tapestry of Kashmir Shaivism. Often Refered to as Lal Ded ("Friend of God") by his devotees, he was a revered scholar, practitioner, and the last living master in the unbroken lineage of this profound spiritual tradition.`}
                 </ImageTextSection>
                 <div className="shiv-section section-gap">
                     <div className="shiv-h3 typo-accent color-accent">
@@ -127,7 +127,7 @@ var relavantData = [
     },
     {
         url: '/My-Shaiva-Darshana/referrences',
-        text: 'Referrences'
+        text: 'References'
     }
 ]
 

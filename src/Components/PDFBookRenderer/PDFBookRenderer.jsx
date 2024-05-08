@@ -167,7 +167,7 @@ const PDFBookRenderer = function(props){
                             />
                         </div>
                     </Document>
-                    {!!referrence && <a href={referrence} target="_blank"><i className="fa fa-external-link" aria-hidden="true"></i> Reffer Text Link </a>}
+                    {!!referrence && <a href={referrence} target="_blank"><i className="fa fa-external-link" aria-hidden="true"></i> Refer Text Link </a>}
                     {toolbar}
                 </div>
                 

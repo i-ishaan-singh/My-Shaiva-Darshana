@@ -29,7 +29,7 @@ const Footer = function(){
                                 <NavigationLink to="/My-Shaiva-Darshana/guru-parampara" className="footer-link">Guru Parampara</NavigationLink>
                                 <NavigationLink to="/My-Shaiva-Darshana/pilgrimages-list" className="footer-link">Pilgrimages</NavigationLink>
                                 <NavigationLink to="/My-Shaiva-Darshana/contact-us" className="footer-link">Contact Us</NavigationLink>
-                                <NavigationLink to="/My-Shaiva-Darshana/referrences" className="footer-link">Referrences</NavigationLink>
+                                <NavigationLink to="/My-Shaiva-Darshana/referrences" className="footer-link">References</NavigationLink>
                             </div>
                             <div className="footer-copyright">
                                 Created and Maintained by <span className="typo-accent">Ishaan Singh</span>

@@ -210,7 +210,7 @@ var relavantData = [
     },
     {
         url: '/My-Shaiva-Darshana/referrences',
-        text: 'Referrences'
+        text: 'References'
     }
 ]
 

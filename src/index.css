@@ -166,6 +166,29 @@
 }
 
 
+@media screen and (max-width: 2000px) {
+  .shiv-section {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .shiv-section {
+    padding: 0 3rem;
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .shiv-section {
+    padding: 0 2rem;
+  }
+
+}
+
+
+
 .align-center{
   align-items: center;
 }
@@ -655,3 +678,15 @@ a:active {
   transition: 0.2s;
 }
 
+a.referrence-links.shiv-h6 > span {
+  color: black;
+  word-break: break-all;
+}
+
+a.referrence-links.shiv-h6 > i {
+  margin-top: 0.3rem;
+  text-decoration: none;
+  text-decoration-color: transparent;
+  -webkit-text-decorations-in-effect: none !important;
+  margin-right: 0.4rem;
+}

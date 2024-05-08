@@ -3,6 +3,9 @@ import { Footer } from '../Footer/Footer';
 import React, { Suspense } from 'react';
 import { useQueryParms } from '../../Utils/Query/useQueryParams';
 import { LoadingSection } from '../../Components/LoadingIcon/LoadingSection';
+import { ImageTextSection } from '../../Components/ImageTextSection/ImageTextSeection';
+import { NavigationLink } from '../../Utils/NavigationLink/NavigationLink';
+import img from './404.jpg';
 
 const ShivSutra = React.lazy(() => import('./assets/shivasutra')); 
 const ShattrimshatTattva = React.lazy(() => import('./assets/Shattrimshattattva')); 
@@ -43,17 +46,29 @@ const BooksPage = function(){
             return map[name];
        }
 
-    }, [name]);
+    }, [name]), renderer;
 
     if(!Renderer){
-        return null;
+        renderer = <div>
+                <div className="sub-section-gap">
+                    <ImageTextSection imgSrc={img} header={"404 - OOPS!!"} subHeader={"Literature Not Found"}>
+                        You might be lost in this Website, but we got your back in the search for self discovery.     
+                    </ImageTextSection>
+                </div>
+                <div className="shiv-section header-gap-top flex-col gap-2x lost-buttons">
+                    <NavigationLink to="/My-Shaiva-Darshana/" className="button main-button">Visit HomePage</NavigationLink>
+                    <NavigationLink to="/My-Shaiva-Darshana/literature-list" className="button main-button primary-button">Explore Literature</NavigationLink>
+                </div>
+            </div>;
+    }else{
+        renderer = (<Suspense fallback={<LoadingSection message="Literature" />}>
+                        <Renderer/>
+                    </Suspense>)
     }
 
     return (<div>
                 <SectionHeader name="Shaiva Literature" />
-                <Suspense fallback={<LoadingSection message="Literature" />}>
-                    <Renderer/>
-                </Suspense>
+                {renderer}
                 <Footer />
             </div>)
 }

@@ -13,6 +13,8 @@ import { Lost } from "./Lost/Lost";
 import { PersonalitiesList } from "./PersonalitiesList/PersonalitiesList";
 import { Concepts } from "./KeyConcepts/Concepts";
 import { Pilgrimages } from "./Pilgrimages/Pilgrimages";
+import { Referrences } from "./Referrences/Referrences";
+import { ExploreMore } from "./ExploreMore/ExploreMore";
 
 const MainRouter = function(){
 
@@ -68,9 +70,18 @@ const MainRouter = function(){
                     element={<Concepts />}
                 /> 
                 <Route 
+                    path="/My-Shaiva-Darshana/referrences" 
+                    element={<Referrences />}
+                /> 
+                <Route 
+                    path="/My-Shaiva-Darshana/explore" 
+                    element={<ExploreMore />}
+                /> 
+                <Route 
                     path="/My-Shaiva-Darshana/*" 
                     element={<Lost />}
                 /> 
+                
             </Routes>);
 
 }

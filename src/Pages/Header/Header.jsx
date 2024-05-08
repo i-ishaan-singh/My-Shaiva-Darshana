@@ -80,7 +80,7 @@ const Header = function(props){
                         </NavigationLink>
                         <NavigationLink className="header-link typo-accent" to="/My-Shaiva-Darshana/referrences">
                             <i className="fa fa-link" aria-hidden="true"></i>{' '}
-                            Referrences
+                            References
                         </NavigationLink>
                         </div>
                     </div>

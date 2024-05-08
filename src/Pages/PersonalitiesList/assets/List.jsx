@@ -25,7 +25,7 @@ const text = {
         "url": '/My-Shaiva-Darshana/personalities?name=utpaladeva'
     },
     "Swami Lakshmanjoo":{
-        "description": "Swami Lakshmanjoo (1907-1991) stands as a towering figure in the rich tapestry of Kashmir Shaivism. Often referred to as Lal Ded (\"Friend of God\") by his devotees, he was a revered scholar, practitioner, and the last living master in the unbroken lineage of this profound spiritual tradition.",
+        "description": "Swami Lakshmanjoo (1907-1991) stands as a towering figure in the rich tapestry of Kashmir Shaivism. Often Refered to as Lal Ded (\"Friend of God\") by his devotees, he was a revered scholar, practitioner, and the last living master in the unbroken lineage of this profound spiritual tradition.",
         "url": '/My-Shaiva-Darshana/personalities?name=lakshmanjoo'
     }   
     
