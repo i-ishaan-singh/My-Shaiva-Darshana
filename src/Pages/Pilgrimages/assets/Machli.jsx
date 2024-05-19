@@ -2,6 +2,7 @@ import { ImageTextSection } from "../../../Components/ImageTextSection/ImageText
 import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
 import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
+import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
 import { useTitle } from "../../../Utils/useTitle/useTitle";
 import machliImg from '../../../assets/images/pilgrimage/machli.jpg';
 
@@ -27,6 +28,9 @@ const Machli = function(){
                             </span> 
                             <div className=" padd-text">
                                 The Machail Mata Temple is situated in the village of Machail, Paddar Valley, Kishtwar district, Jammu and Kashmir, India.
+                            </div>
+                            <div className="padd-text pad-b-3x">
+                                <NavigationLink to="https://www.google.com/maps/place/Machail+Mata+Padder+J%26K+India/@33.4176875,76.3439649,18z/data=!3m1!4b1!4m6!3m5!1s0x391d4994ebc7a1f7:0xb5782b04f29e22ca!8m2!3d33.4176875!4d76.3446875!16s%2Fg%2F1tctk565?entry=ttu" target="_blank"><i className="fa fa-map-marker" aria-hidden="true"></i>See on Maps</NavigationLink>
                             </div>
                         </div>
                         

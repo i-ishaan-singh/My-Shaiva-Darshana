@@ -2,6 +2,7 @@ import { ImageTextSection } from "../../../Components/ImageTextSection/ImageText
 import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
 import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
+import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
 import { useTitle } from "../../../Utils/useTitle/useTitle";
 import amarnathImg from '../../../assets/images/pilgrimage/amarnath.jpg';
 
@@ -27,7 +28,11 @@ const Amarnath = function(){
                             </span> 
                             <div className=" padd-text">The Amarnath Cave is situated in the Pahalgam Tehsil of the Anantnag district in Jammu and Kashmir, India.
                             </div>
+                            <div className="padd-text pad-b-3x">
+                                <NavigationLink to="https://www.google.com/maps/place/Shri+Amarnath+Cave+Temple/@34.212109,75.5054849,17z/data=!4m6!3m5!1s0x38e24fca96056755:0xdfd15d625912515e!8m2!3d34.2156918!4d75.5041201!16zL20vMDdnZHFr?entry=ttu" target="_blank"><i className="fa fa-map-marker" aria-hidden="true"></i>See on Maps</NavigationLink>
+                            </div>
                         </div>
+                        
                         
                         <div className="pad-b-3x">
                             <div className="point typo-accent ">

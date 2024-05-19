@@ -144,9 +144,9 @@ const PDFBookRenderer = function(props){
                 <div className="shiv-book-name shiv-h2 shiv-text-center shiv-800 color-accent " role="book-name">
                     {titleSanskrit}
                 </div>
-                <div className="shiv-book-sub-name shiv-h5 shiv-text-center" role="book-name">
+                {!!author && <div className="shiv-book-sub-name shiv-h5 shiv-text-center" role="book-name">
                     ~{author}
-                </div>
+                </div>}
                 
                 <div className="section-gap" role="document">
                     {toolbar}

@@ -209,6 +209,10 @@ var relavantData = [
         text: 'Read Shattrimshat Tattvasandoha'
     },
     {
+        url: '/My-Shaiva-Darshana/literature/books?name=pratyabhijna-hridayam',
+        text: 'Read Shattrimshat Pratyabhijñā Hṛdayam'
+    },
+    {
         url: '/My-Shaiva-Darshana/referrences',
         text: 'References'
     }

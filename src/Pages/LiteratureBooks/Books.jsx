@@ -19,6 +19,8 @@ const TantraLoka5 = React.lazy(() => import('./assets/TantraLoka/TantraLoka5'));
 const TantraLoka6 = React.lazy(() => import('./assets/TantraLoka/TantraLoka6')); 
 const TantraLoka7 = React.lazy(() => import('./assets/TantraLoka/TantraLoka7')); 
 const TantraLoka8 = React.lazy(() => import('./assets/TantraLoka/TantraLoka8')); 
+const VBT = React.lazy(() => import('./assets/VignyaanBhairava/VignyaanBhairava')); 
+const PHR = React.lazy(() => import('./assets/phr/PHR')); 
 const BhairavaStavah = React.lazy(() => import('./assets/BhairavaStavah')); 
 
 const map ={
@@ -35,6 +37,8 @@ const map ={
     'tantraloka-vol7': TantraLoka7,
     'tantraloka-vol8': TantraLoka8,
     'bhairava-stavah': BhairavaStavah,
+    'vijnyanabhairava': VBT,
+    'pratyabhijna-hridayam': PHR,
  }
 
 const BooksPage = function(){

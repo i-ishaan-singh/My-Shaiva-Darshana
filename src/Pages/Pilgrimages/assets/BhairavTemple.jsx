@@ -2,6 +2,7 @@ import { ImageTextSection } from "../../../Components/ImageTextSection/ImageText
 import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
 import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
+import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
 import { useTitle } from "../../../Utils/useTitle/useTitle";
 import vignyaanTempleImg from '../../../assets/images/pilgrimage/vignyaanTemple.jpg';
 
@@ -83,14 +84,28 @@ const Bhairav = function(){
 
                     <SubSectionText header="Mangleshwar Bhairav Temple:">
                         {`This 700-year-old temple, located in the heart of Srinagar, is dedicated to Mangleshwar Bhairav.  Devastated by floods in 2014, it has undergone recent restoration and is revered for its historical significance.`}
+                    
+                        <div className="padd-text pad-b-3x">
+                            <NavigationLink to="https://maps.app.goo.gl/kZedFSKfXa23eQap8" target="_blank"><i className="fa fa-map-marker" aria-hidden="true"></i>See on Maps</NavigationLink>
+                        </div>
+
                     </SubSectionText>
                     
                     <SubSectionText header="Anandeshwar Bhairav Mandir:">
                         {`Situated in the Maisuma area, this temple is known for hosting a Havan (fire ceremony) after a long hiatus due to militancy in the region.  This revival signifies the enduring faith associated with Bhairav worship.`}
+                        
+                        <div className="padd-text pad-b-3x">
+                            <NavigationLink to="https://maps.app.goo.gl/dfYRfxX5b4qDjquLA" target="_blank"><i className="fa fa-map-marker" aria-hidden="true"></i>See on Maps</NavigationLink>
+                        </div>
+
                     </SubSectionText>
                  
                     <SubSectionText header="Bhairav Mandir, Chattabal:">
                         {`Located near the historic Chattabal Bridge, this temple is a popular pilgrimage site for devotees seeking blessings from Bhairava.`}
+
+                        <div className="padd-text pad-b-3x">
+                            <NavigationLink to="https://maps.app.goo.gl/DfgTkEGmC5R93q3r5" target="_blank"><i className="fa fa-map-marker" aria-hidden="true"></i>See on Maps</NavigationLink>
+                        </div>
                     </SubSectionText>
 
 

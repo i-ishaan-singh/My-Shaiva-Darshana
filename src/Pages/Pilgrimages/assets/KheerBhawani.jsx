@@ -2,6 +2,7 @@ import { ImageTextSection } from "../../../Components/ImageTextSection/ImageText
 import { RelavantLinks } from "../../../Components/RelavantLinks/RelavantLinks";
 import { SectionSeparator } from "../../../Components/SectionSeparator/SectionSeparator";
 import { SubSectionText } from "../../../Components/SubSectionText/SubSectionText";
+import { NavigationLink } from "../../../Utils/NavigationLink/NavigationLink";
 import { useTitle } from "../../../Utils/useTitle/useTitle";
 import kheerbhawani from '../../../assets/images/pilgrimage/kheerbhawani.jpg';
 
@@ -28,6 +29,9 @@ const KheerBhawani = function(){
                             <div className=" padd-text">
                             {`The Mata Kheer Bhawani Temple is situated in Tulmulla village, Ganderbal district, Jammu and Kashmir, approximately 28 kilometers northeast of Srinagar.
                             The temple is nestled amidst picturesque mountains, offering a serene atmosphere for prayer and reflection.`}
+                            </div>
+                            <div className="padd-text pad-b-3x">
+                                <NavigationLink to="https://maps.app.goo.gl/HXtxp3D3xG2s1ypq8" target="_blank"><i className="fa fa-map-marker" aria-hidden="true"></i>See on Maps</NavigationLink>
                             </div>
                         </div>
                         

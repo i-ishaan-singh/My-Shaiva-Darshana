@@ -25,21 +25,24 @@ const text = {
         "url": '/My-Shaiva-Darshana/literature/books?name=tantraloka-vol1',
         "isPDF": true
     },
-    "Netra Tantram": {
-        "description": " This scripture is part of the core teachings of Kashmir Shaivism. It has been commented upon by Abhinavagupta's disciple, Ksemarāja."
-    },
-    "Mālinī Vijaya Tantram": {
-        "description": " Another significant text that explores the intricacies of this mystical tradition."
-    },
     "Mālinī Vijayottara Tantram": {
         "description": " A companion text to the Mālinī Vijaya Tantram, delving deeper into the esoteric practices.",
         "url": '/My-Shaiva-Darshana/literature/books?name=malinivijayottaratanra',
         "isPDF": true
     },
-    
     "Bhairava Stava": {
         "description": "The Bhairava Stava is a devotional hymn praising Shiva in his fierce Bhairava form.  Written by Abhinavagupta, it offers a unique perspective. The devotee rejoices in the realization that Shiva is everywhere and everything, dissolving fear of death and rebirth. Through devotion and self-recognition as Shiva, the devotee finds inner peace and bliss.",
         "url": '/My-Shaiva-Darshana/literature/books?name=bhairava-stavah',
+    },
+    "Pratyabhijñā Hṛdayam": {
+        "description": " Emphasizes self-recognition (pratyabhijñā) as the essence of Kashmir Shaivism.",
+        "url": '/My-Shaiva-Darshana/literature/books?name=pratyabhijna-hridayam',
+        "isPDF": true
+    },
+    "Vijñāna Bhairava Tantra": {
+        "description": " A dialogue between the goddess Bhairavī and Lord Bhairava, containing 112 meditation techniques for direct experience of the ultimate reality.",
+        "url": '/My-Shaiva-Darshana/literature/books?name=vijnyanabhairava',
+        "isPDF": true
     },
     "Guhyakālikā Chapter of the Mahākāla Samhitā": {
         "description": " Although not exclusively a Kashmir Shaivism scripture, it has influenced this tradition significantly."
@@ -47,11 +50,11 @@ const text = {
     "Tantrābhijñāna": {
         "description": " A foundational work that elucidates the principles of non-dualism and the recognition of the divine consciousness within all beings."
     },
-    "Pratyabhijñā Hṛdayam": {
-        "description": " Emphasizes self-recognition (pratyabhijñā) as the essence of Kashmir Shaivism."
+    "Netra Tantram": {
+        "description": " This scripture is part of the core teachings of Kashmir Shaivism. It has been commented upon by Abhinavagupta's disciple, Ksemarāja."
     },
-    "Vijñāna Bhairava Tantra": {
-        "description": " A dialogue between the goddess Bhairavī and Lord Bhairava, containing 112 meditation techniques for direct experience of the ultimate reality."
+    "Mālinī Vijaya Tantram": {
+        "description": " Another significant text that explores the intricacies of this mystical tradition."
     },
     "Pratyabhijñā Sūtras": {
         "description": " Attributed to Utpaladeva, these aphorisms explore the recognition of self-awareness as the ultimate reality. They emphasize the play of consciousness (leela) and the dance of existence."
