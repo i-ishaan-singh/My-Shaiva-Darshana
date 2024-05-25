@@ -27,6 +27,10 @@ var relavantData = [
         text: 'Explore about Vasugupta'
     },
     {
+        url: '/My-Shaiva-Darshana/literature/books?name=shiv-sutra-vartika',
+        text: 'Read Shiva Sutra Vartika'
+    },
+    {
         url: '/My-Shaiva-Darshana/referrences',
         text: 'References'
     }

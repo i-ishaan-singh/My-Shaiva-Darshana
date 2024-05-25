@@ -213,6 +213,14 @@ var relavantData = [
         text: 'Read Shattrimshat Pratyabhijñā Hṛdayam'
     },
     {
+        url: '/My-Shaiva-Darshana/literature/books?name=svacchanda-tantram',
+        text: 'Read Svacchanda Tantra'
+    },
+    {
+        url: '/My-Shaiva-Darshana/literature/books?name=netratantram',
+        text: 'Read Netra Tantra'
+    },
+    {
         url: '/My-Shaiva-Darshana/referrences',
         text: 'References'
     }

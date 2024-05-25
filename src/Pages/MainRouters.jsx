@@ -15,6 +15,8 @@ import { Concepts } from "./KeyConcepts/Concepts";
 import { Pilgrimages } from "./Pilgrimages/Pilgrimages";
 import { Referrences } from "./Referrences/Referrences";
 import { ExploreMore } from "./ExploreMore/ExploreMore";
+import { ContactUs } from "./ContactUs/ContactUs";
+import { PilgrimageList } from "./PilgrimageList/PilgrimageList";
 
 const MainRouter = function(){
 
@@ -76,6 +78,14 @@ const MainRouter = function(){
                 <Route 
                     path="/My-Shaiva-Darshana/explore" 
                     element={<ExploreMore />}
+                /> 
+                <Route 
+                    path="/My-Shaiva-Darshana/contact-us" 
+                    element={<ContactUs />}
+                /> 
+                <Route 
+                    path="/My-Shaiva-Darshana/pilgrimages-list" 
+                    element={<PilgrimageList />}
                 /> 
                 <Route 
                     path="/My-Shaiva-Darshana/*" 

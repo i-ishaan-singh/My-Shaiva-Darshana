@@ -6,7 +6,14 @@ import { LoadingSection } from '../../Components/LoadingIcon/LoadingSection';
 import { ImageTextSection } from '../../Components/ImageTextSection/ImageTextSeection';
 import { NavigationLink } from '../../Utils/NavigationLink/NavigationLink';
 import img from './404.jpg';
+import ShivaSutraVartika from './assets/ShivaSutraVartika/ShivaSutraVartika';
+import ShivStotraVali from './assets/ShivStotravali/ShivStotraVali';
 
+const IPV = React.lazy(() => import('./assets/IshwarPratnyabhignyaVimshini/IPV')); 
+const ParaTrimshika = React.lazy(() => import('./assets/ParaTrimshika/ParaTrimshika')); 
+const NetraTantram = React.lazy(() => import('./assets/NetraTrayam/NetraTantram')); 
+const SpandaSandoha = React.lazy(() => import('./assets/SpandaSandoha/SpandaSandoha')); 
+const SvacchandaTantram = React.lazy(() => import('./assets/SvacchandaTantram/SvacchandaTantram')); 
 const ShivSutra = React.lazy(() => import('./assets/shivasutra')); 
 const ShattrimshatTattva = React.lazy(() => import('./assets/Shattrimshattattva')); 
 const SpandaKarika = React.lazy(() => import('./assets/spandakarika')); 
@@ -39,6 +46,13 @@ const map ={
     'bhairava-stavah': BhairavaStavah,
     'vijnyanabhairava': VBT,
     'pratyabhijna-hridayam': PHR,
+    'svacchanda-tantram': SvacchandaTantram,
+    'spanda-sandoha': SpandaSandoha,
+    'netratantram': NetraTantram,
+    'paratrimshika': ParaTrimshika,
+    'shiv-sutra-vartika': ShivaSutraVartika,
+    'shiv-stotravali': ShivStotraVali,
+    'pratyabhijna-vimarshini': IPV
  }
 
 const BooksPage = function(){

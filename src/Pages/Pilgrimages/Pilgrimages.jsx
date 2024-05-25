@@ -4,6 +4,8 @@ import { useQueryParms } from "../../Utils/Query/useQueryParams";
 import { Footer } from "../Footer/Footer";
 import { LoadingSection } from "../../Components/LoadingIcon/LoadingSection";
 
+const Chakreshwari = React.lazy(() => import("./assets/Chakreshwari")); 
+const Avantipura = React.lazy(() => import("./assets/Avantipura")); 
 const Amarnath = React.lazy(() => import("./assets/Amarnath")); 
 const Machli = React.lazy(() => import("./assets/Machli")); 
 const Bhairav = React.lazy(() => import("./assets/BhairavTemple")); 
@@ -14,6 +16,8 @@ const map ={
     'machli-mata': Machli,
     'srinagar-bhairav': Bhairav,
     'kheer-bhawani': KheerBhawani,
+    'chakreshwari': Chakreshwari,
+    'avantipora': Avantipura
  }
 
 const Pilgrimages = function(){

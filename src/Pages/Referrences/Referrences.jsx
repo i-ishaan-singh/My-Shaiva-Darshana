@@ -23,7 +23,7 @@ const Referrences = function(){
 
     return (<div>
                 <SectionHeader name="References"/>
-                <div className="shiv-section">
+                <div className="shiv-section section-gap">
                     {_referrencesList}
                 </div>
                 <Footer/>

@@ -8,6 +8,10 @@ const List = function(){
 }
 
 const text = {
+    "Svacchanda Bhairava":{
+        "description": " Svacchanda Bhairava, literally translating to \"the free-willed Bhairava,\" embodies the pinnacle of power, consciousness, and blissful awareness. Lord Svacchanda Bhairava manifests out of his own free will and is the highest form of power. He transcends the realm of a mere mythological figure, serving as a potent symbol for self-realization, liberation, and the dissolution of illusion.",
+        "url": '/My-Shaiva-Darshana/personalities?name=svacchandabhairava'
+    },
     "Abhinavgupta":{
         "description": "Abhinavagupta (924-1020 CE) injected new meaning into Shaiva Philosophy, which later became more popularly known as Kashmir Shaivism. His original thinking shattered established beliefs related to caste, creed, color, and gender restrictions in spiritual practice. Abhinavagupta emphasized that spiritual revelation was not limited to monastic settings; anyone, regardless of background, could tread the path of enlightenment.",
         "url": '/My-Shaiva-Darshana/personalities?name=abhinavgupta'

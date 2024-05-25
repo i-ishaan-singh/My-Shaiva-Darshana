@@ -6,6 +6,7 @@ import abhinavgupta from '../../../assets/images/abhinavgupta.jpg';
 //import somananda from '../../../assets/images/somananda.jpg';
 import laxman from '../../../assets/images/laxman.jpg';
 import utpal from '../../../assets/images/utpaldeva.jpg';
+import { LeftNavigation } from "../../../Components/LeftNavigation/LeftNavigation";
 
 const AcharyasCards = function(){
 
@@ -41,6 +42,9 @@ const AcharyasCards = function(){
                     />
 
                 </CardGroup>
+                <div className="header-gap-top">
+                    <LeftNavigation className="link-button" url="/My-Shaiva-Darshana/personalities-list">Explore More Personalities</LeftNavigation>
+                </div>
             </div>)
 }
 

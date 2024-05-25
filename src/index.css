@@ -690,3 +690,51 @@ a.referrence-links.shiv-h6 > i {
   -webkit-text-decorations-in-effect: none !important;
   margin-right: 0.4rem;
 }
+
+button.button.main-button.primary-button {
+  outline: none;
+  border: none;
+  font-size: inherit;
+}
+
+
+button.button.main-button.primary-button {
+  outline: none;
+  border: none;
+  font-size: inherit;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.label-container {
+  width: 9rem;
+}
+
+.input-wrapper .shiv-input {
+    width: 23rem;
+    max-width: 100%;
+}
+
+.input-wrapper textarea {
+  height: 7rem;
+  resize: none;
+  overflow: auto;
+}
+
+@media screen and (max-width: 512px){
+  
+  .input-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-wrapper  .label-container {
+    width: 23rem;
+    max-width: 100%;
+    padding-bottom: 0.25rem;
+  }
+}
