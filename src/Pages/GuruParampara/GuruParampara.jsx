@@ -482,7 +482,7 @@ const GuruParampara = function(){
                     </div>
                     <div className="padd-text">
                         <div className="padd-text pad-b-3x">
-                        Kula Lineage starts from Goddess Mangala and finally merges into AbhinavGupta.
+                        Krama Lineage starts from Goddess Mangala and finally merges into AbhinavGupta.
                         </div>
                         <div className="point shiv-h6 ">
                             <span className="typo-accent ">

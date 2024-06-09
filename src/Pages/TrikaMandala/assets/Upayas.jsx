@@ -71,7 +71,7 @@ const UpayasData = function(){
                     Anavopaya
                     </div>
 
-                    <SubSectionText header="The Path of Power">
+                    <SubSectionText header="The Path of Action">
                         {`Anavopaya, also known as Kriyopaya (path of action), focuses on practices involving the individual soul (anu).  It utilizes techniques like breathwork (uccara), sensory focus (karana), contemplation (dhyana), and concentration on specific points in the body or cosmos (sthana pratisthan).  
                         Uccara involves focusing on the space between breaths, while karana involves maintaining one-pointed focus through a chosen sense organ. 
                         Dhyana encompasses various forms of contemplation, from focusing on the heart to meditating on mantras. 

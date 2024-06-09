@@ -105,8 +105,6 @@ const text = {
     "Vijñana Bhairava Vimarshinim": {
         "description": " A commentary by Ksemaraja on the Vijñana Bhairava Tantra. It provides detailed explanations and practical insights into the 112 meditation techniques."
     },
-    
-   
     "Svatantryasūtram": {
         "description": " A concise text attributed to Utpaladeva, emphasizing the concept of absolute freedom (svatantrya). It invites the seeker to recognize their inherent divinity."
     },
